@@ -1,0 +1,1892 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E160240AF9208726FBDF5201 /* Pods_TeplocomCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBF34D19E4AB4F1DEE7630C /* Pods_TeplocomCloud.framework */; };
+		E900F5D1279FF3B8006D0D42 /* StandartViewUtilites.swift in Sources */ = {isa = PBXBuildFile; fileRef = E900F5D0279FF3B8006D0D42 /* StandartViewUtilites.swift */; };
+		E900F5D3279FF3CE006D0D42 /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E900F5D2279FF3CE006D0D42 /* UIView + Extension.swift */; };
+		E900F5D5279FF3E5006D0D42 /* StandartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E900F5D4279FF3E5006D0D42 /* StandartView.swift */; };
+		E900F5D7279FF9FF006D0D42 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E900F5D6279FF9FF006D0D42 /* SignInViewController.swift */; };
+		E900F5DB279FFF29006D0D42 /* SMSCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E900F5DA279FFF29006D0D42 /* SMSCodeViewController.swift */; };
+		E900F6C527A5351F006D0D42 /* MainScreenUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E900F6C427A5351D006D0D42 /* MainScreenUtilities.swift */; };
+		E900F6EF27A54CE7006D0D42 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E900F6EE27A54CE7006D0D42 /* MenuTableViewCell.swift */; };
+		E900F6F127A54CF5006D0D42 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E900F6F027A54CF4006D0D42 /* MenuViewController.swift */; };
+		E900F6F327A54D09006D0D42 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E900F6F227A54D09006D0D42 /* MenuModel.swift */; };
+		E91966A528FA9441008FDF90 /* NeedUpdateFirmwareViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91966A428FA9441008FDF90 /* NeedUpdateFirmwareViewModel.swift */; };
+		E91A504026CD0D4100D593F0 /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91A503F26CD0D4100D593F0 /* UIViewController + Extension.swift */; };
+		E9276FB526C111AA003742C7 /* SignInRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9276FB426C111AA003742C7 /* SignInRouter.swift */; };
+		E9276FB726C112E6003742C7 /* SMSCodeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9276FB626C112E6003742C7 /* SMSCodeRouter.swift */; };
+		E9276FB926C1136A003742C7 /* SMSCodeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9276FB826C1136A003742C7 /* SMSCodeInteractor.swift */; };
+		E9276FBB26C11F56003742C7 /* SMSCodePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9276FBA26C11F56003742C7 /* SMSCodePresenter.swift */; };
+		E9276FBD26C11F94003742C7 /* SMSCodeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9276FBC26C11F94003742C7 /* SMSCodeModels.swift */; };
+		E9276FBF26C11F9A003742C7 /* SMSCodeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9276FBE26C11F9A003742C7 /* SMSCodeWorker.swift */; };
+		E9276FC326C12D1B003742C7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9276FC226C12D1B003742C7 /* MainViewController.swift */; };
+		E9276FC726C17853003742C7 /* PersonalCabinetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9276FC626C17853003742C7 /* PersonalCabinetViewController.swift */; };
+		E9276FCA26C1A05F003742C7 /* PersonalCabinetInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9276FC926C1A05F003742C7 /* PersonalCabinetInteractor.swift */; };
+		E9276FCC26C1A069003742C7 /* PersonalCabinetPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9276FCB26C1A069003742C7 /* PersonalCabinetPresenter.swift */; };
+		E9276FCE26C1A06F003742C7 /* PersonalCabinetModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9276FCD26C1A06F003742C7 /* PersonalCabinetModels.swift */; };
+		E9276FD026C1A0C0003742C7 /* PersonalCabinetWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9276FCF26C1A0C0003742C7 /* PersonalCabinetWorker.swift */; };
+		E9276FD226C1A1AA003742C7 /* PersonalInfoBackendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9276FD126C1A1AA003742C7 /* PersonalInfoBackendModel.swift */; };
+		E9276FD526C26FEA003742C7 /* PopoverSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9276FD426C26FEA003742C7 /* PopoverSearchTableViewController.swift */; };
+		E9276FD926C3C26C003742C7 /* EmailManagementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9276FD826C3C26C003742C7 /* EmailManagementViewController.swift */; };
+		E9276FDC26C41355003742C7 /* PersonalCabinetRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9276FDB26C41355003742C7 /* PersonalCabinetRouter.swift */; };
+		E9276FDE26C417B3003742C7 /* EmailManagementInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9276FDD26C417B3003742C7 /* EmailManagementInteractor.swift */; };
+		E9276FE026C417B9003742C7 /* EmailManagementRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9276FDF26C417B9003742C7 /* EmailManagementRouter.swift */; };
+		E9276FE226C42F25003742C7 /* EmailManagementPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9276FE126C42F25003742C7 /* EmailManagementPresenter.swift */; };
+		E9276FE426C43003003742C7 /* EmailManagementWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9276FE326C43003003742C7 /* EmailManagementWorker.swift */; };
+		E9276FE626C4300D003742C7 /* EmailManagementModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9276FE526C4300D003742C7 /* EmailManagementModels.swift */; };
+		E9276FE826C4358D003742C7 /* PhoneNumberChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9276FE726C4358D003742C7 /* PhoneNumberChangeViewController.swift */; };
+		E9276FEB26C4364A003742C7 /* PhoneNumberChangeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9276FEA26C4364A003742C7 /* PhoneNumberChangeInteractor.swift */; };
+		E9276FED26C4367F003742C7 /* PhoneNumberChangePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9276FEC26C4367F003742C7 /* PhoneNumberChangePresenter.swift */; };
+		E9276FEF26C436AE003742C7 /* PhoneNumberChangeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9276FEE26C436AE003742C7 /* PhoneNumberChangeModels.swift */; };
+		E9276FF126C436BF003742C7 /* PhoneNumberChangeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9276FF026C436BF003742C7 /* PhoneNumberChangeWorker.swift */; };
+		E9276FF626C58D23003742C7 /* TwoPhoneChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9276FF526C58D23003742C7 /* TwoPhoneChangeViewController.swift */; };
+		E9276FF826C58D5A003742C7 /* TwoPhoneChangeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9276FF726C58D5A003742C7 /* TwoPhoneChangeInteractor.swift */; };
+		E9276FFA26C58D85003742C7 /* TwoPhoneChangePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9276FF926C58D85003742C7 /* TwoPhoneChangePresenter.swift */; };
+		E9276FFC26C58DAC003742C7 /* TwoPhoneChangeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9276FFB26C58DAC003742C7 /* TwoPhoneChangeModels.swift */; };
+		E9276FFE26C58DB2003742C7 /* TwoPhoneChangeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9276FFD26C58DB2003742C7 /* TwoPhoneChangeWorker.swift */; };
+		E927700026C58DB9003742C7 /* TwoPhoneChangeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9276FFF26C58DB9003742C7 /* TwoPhoneChangeRouter.swift */; };
+		E927700226C59151003742C7 /* PhoneNumberChangeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E927700126C59151003742C7 /* PhoneNumberChangeRouter.swift */; };
+		E927700426C5969E003742C7 /* ThreePhoneChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E927700326C5969E003742C7 /* ThreePhoneChangeViewController.swift */; };
+		E927700626C596DF003742C7 /* ThreePhoneChangeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E927700526C596DF003742C7 /* ThreePhoneChangeInteractor.swift */; };
+		E927700826C59744003742C7 /* ThreePhoneChangePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E927700726C59744003742C7 /* ThreePhoneChangePresenter.swift */; };
+		E927700A26C59775003742C7 /* ThreePhoneChangeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E927700926C59775003742C7 /* ThreePhoneChangeModels.swift */; };
+		E927700C26C5977B003742C7 /* ThreePhoneChangeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E927700B26C5977B003742C7 /* ThreePhoneChangeWorker.swift */; };
+		E93C78E127E9B1D800C57C97 /* BindedDevicesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C78E027E9B1D800C57C97 /* BindedDevicesRouter.swift */; };
+		E93C78E527E9B93C00C57C97 /* MenuControllerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C78E427E9B93C00C57C97 /* MenuControllerRouter.swift */; };
+		E93C78E927E9F41800C57C97 /* SensorsListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C78E827E9F41800C57C97 /* SensorsListInteractor.swift */; };
+		E93C78EB27E9F41D00C57C97 /* SensorsListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C78EA27E9F41D00C57C97 /* SensorsListPresenter.swift */; };
+		E93C78ED27E9F42D00C57C97 /* SensorsListModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C78EC27E9F42D00C57C97 /* SensorsListModels.swift */; };
+		E93C78EF27E9FC8400C57C97 /* SensorsListWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C78EE27E9FC8400C57C97 /* SensorsListWorker.swift */; };
+		E93C78F127EA0BA100C57C97 /* SensorsListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C78F027EA0BA100C57C97 /* SensorsListRouter.swift */; };
+		E93C78F327EA0C2100C57C97 /* SensorLoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C78F227EA0C2100C57C97 /* SensorLoaderViewController.swift */; };
+		E93C78F727EA0F8400C57C97 /* SensorTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C78F627EA0F8400C57C97 /* SensorTypeViewController.swift */; };
+		E93C78FA27EA26C100C57C97 /* SensorTypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C78F927EA26C100C57C97 /* SensorTypeTableViewCell.swift */; };
+		E93C78FC27EA275700C57C97 /* SensorTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C78FB27EA275700C57C97 /* SensorTypeModel.swift */; };
+		E93C78FE27EB06A700C57C97 /* SensorLoaderInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C78FD27EB06A700C57C97 /* SensorLoaderInteractor.swift */; };
+		E93C790027EB06D400C57C97 /* SensorLoaderPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C78FF27EB06D400C57C97 /* SensorLoaderPresenter.swift */; };
+		E93C790227EB075300C57C97 /* SensorLoaderModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C790127EB075300C57C97 /* SensorLoaderModels.swift */; };
+		E93C790427EB081400C57C97 /* UnallocatedSenorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C790327EB081400C57C97 /* UnallocatedSenorModel.swift */; };
+		E93C790627EB092100C57C97 /* SensorLoaderWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C790527EB092100C57C97 /* SensorLoaderWorker.swift */; };
+		E93C790827EB108F00C57C97 /* SensorLoaderRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C790727EB108F00C57C97 /* SensorLoaderRouter.swift */; };
+		E93C792A27EB4B2200C57C97 /* SensorSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C792927EB4B2200C57C97 /* SensorSettingsViewController.swift */; };
+		E93C792D27EB4C7700C57C97 /* SensorTypeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C792C27EB4C7700C57C97 /* SensorTypeRouter.swift */; };
+		E93C792F27EB4C9500C57C97 /* SensorSettingsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C792E27EB4C9500C57C97 /* SensorSettingsInteractor.swift */; };
+		E93C793127EB4C9A00C57C97 /* SensorSettingsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C793027EB4C9A00C57C97 /* SensorSettingsPresenter.swift */; };
+		E93C793327EB4C9F00C57C97 /* SensorSettingsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C793227EB4C9F00C57C97 /* SensorSettingsModels.swift */; };
+		E93C793527EB4CA500C57C97 /* SensorSettingsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C793427EB4CA500C57C97 /* SensorSettingsWorker.swift */; };
+		E93C793727EB543E00C57C97 /* SensorSettingsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C793627EB543E00C57C97 /* SensorSettingsRouter.swift */; };
+		E951DA2126BBD184001F6795 /* SignInInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E951DA2026BBD184001F6795 /* SignInInteractor.swift */; };
+		E951DA2326BBD18B001F6795 /* SignInPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E951DA2226BBD18B001F6795 /* SignInPresenter.swift */; };
+		E951DA2526BBD192001F6795 /* SignInModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E951DA2426BBD192001F6795 /* SignInModels.swift */; };
+		E951DA2726BBD19A001F6795 /* SignInWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E951DA2626BBD19A001F6795 /* SignInWorker.swift */; };
+		E953433127F74FEC002877A0 /* SensorsUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E953433027F74FEC002877A0 /* SensorsUtilities.swift */; };
+		E953433327F9AF1C002877A0 /* SensorsExpertSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E953433227F9AF1C002877A0 /* SensorsExpertSettingsViewController.swift */; };
+		E953540B27BCD25E0069390A /* BindedDevicesBackendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E953540A27BCD25E0069390A /* BindedDevicesBackendModel.swift */; };
+		E953541D27BFF7970069390A /* BindedDevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E953541C27BFF7970069390A /* BindedDevicesViewController.swift */; };
+		E953542027BFF7F50069390A /* BindedDevicesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E953541F27BFF7F50069390A /* BindedDevicesInteractor.swift */; };
+		E953542227BFF7FB0069390A /* BindedDevicesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E953542127BFF7FB0069390A /* BindedDevicesPresenter.swift */; };
+		E953542427BFF8010069390A /* BindedDevicesModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E953542327BFF8010069390A /* BindedDevicesModels.swift */; };
+		E953542627BFFBA70069390A /* BindedDevicesWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E953542527BFFBA70069390A /* BindedDevicesWorker.swift */; };
+		E953542827BFFFCE0069390A /* BindedDevicesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E953542727BFFFCE0069390A /* BindedDevicesTableViewCell.swift */; };
+		E953543127C12FC70069390A /* DeviceInfoBackendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E953543027C12FC70069390A /* DeviceInfoBackendModel.swift */; };
+		E953543727C159850069390A /* TemperatureSensorsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E953543627C159850069390A /* TemperatureSensorsModels.swift */; };
+		E953543D27C24D820069390A /* DeviceHotDataBackendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E953543C27C24D820069390A /* DeviceHotDataBackendModel.swift */; };
+		E953543F27C24E850069390A /* MainScreenInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E953543E27C24E850069390A /* MainScreenInteractor.swift */; };
+		E953544127C24E8D0069390A /* MainScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E953544027C24E8D0069390A /* MainScreenPresenter.swift */; };
+		E953544327C24EC00069390A /* MainScreenModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E953544227C24EC00069390A /* MainScreenModels.swift */; };
+		E953544527C24EC80069390A /* MainScreenWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E953544427C24EC80069390A /* MainScreenWorker.swift */; };
+		E953546C27C2761D0069390A /* SensorsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E953546B27C2761D0069390A /* SensorsListViewController.swift */; };
+		E953546F27C285660069390A /* SensorsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E953546E27C285660069390A /* SensorsListTableViewCell.swift */; };
+		E95AB1D0282BB7750060454F /* RelayOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95AB1CF282BB7750060454F /* RelayOneView.swift */; };
+		E95AB1D3282BB78A0060454F /* RelayTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95AB1D2282BB78A0060454F /* RelayTwoView.swift */; };
+		E95AB1D7282BB7AE0060454F /* OpenThermView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95AB1D6282BB7AE0060454F /* OpenThermView.swift */; };
+		E9B0C9F0287555D400AAB961 /* AboutDeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B0C9EF287555D400AAB961 /* AboutDeviceViewController.swift */; };
+		E9B0C9F228756E5000AAB961 /* AboutDeviceModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B0C9F128756E5000AAB961 /* AboutDeviceModels.swift */; };
+		E9B0C9F428756EC700AAB961 /* AboutDeviceInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B0C9F328756EC700AAB961 /* AboutDeviceInteractor.swift */; };
+		E9B0C9F628756ECE00AAB961 /* AboutDevicePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B0C9F528756ECE00AAB961 /* AboutDevicePresenter.swift */; };
+		E9B0C9F828756ED600AAB961 /* AboutDeviceWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B0C9F728756ED600AAB961 /* AboutDeviceWorker.swift */; };
+		E9B0C9FA28756EDB00AAB961 /* AboutDeviceRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B0C9F928756EDB00AAB961 /* AboutDeviceRouter.swift */; };
+		E9B0C9FD2875D30700AAB961 /* NotificationSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B0C9FC2875D30700AAB961 /* NotificationSettingsViewController.swift */; };
+		E9B0C9FF2875F02600AAB961 /* NotificationSettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B0C9FE2875F02600AAB961 /* NotificationSettingsModel.swift */; };
+		E9B0CA012875F4EF00AAB961 /* NotificationSettingsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B0CA002875F4EF00AAB961 /* NotificationSettingsInteractor.swift */; };
+		E9B0CA032875F73000AAB961 /* NotificationSettingsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B0CA022875F72F00AAB961 /* NotificationSettingsPresenter.swift */; };
+		E9B0CA052875F73600AAB961 /* NotificationSettingsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B0CA042875F73600AAB961 /* NotificationSettingsWorker.swift */; };
+		E9B0CA072875F73B00AAB961 /* NotificationSettingsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B0CA062875F73B00AAB961 /* NotificationSettingsRouter.swift */; };
+		E9B0CA092875F74000AAB961 /* NotificationSettingsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B0CA082875F74000AAB961 /* NotificationSettingsModels.swift */; };
+		E9B0CA0B2876C59D00AAB961 /* RelayOneInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B0CA0A2876C59D00AAB961 /* RelayOneInteractor.swift */; };
+		E9B0CA0D2876C5A400AAB961 /* RelayOnePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B0CA0C2876C5A400AAB961 /* RelayOnePresenter.swift */; };
+		E9B0CA0F2876C5CE00AAB961 /* RelayOneModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B0CA0E2876C5CE00AAB961 /* RelayOneModels.swift */; };
+		E9B0CA112877283800AAB961 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B0CA102877283800AAB961 /* AlertView.swift */; };
+		E9B0CA132877429600AAB961 /* RelayTwoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B0CA122877429600AAB961 /* RelayTwoInteractor.swift */; };
+		E9B0CA152877429C00AAB961 /* RelayTwoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B0CA142877429C00AAB961 /* RelayTwoPresenter.swift */; };
+		E9B0CA17287742A000AAB961 /* RelayTwoModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B0CA16287742A000AAB961 /* RelayTwoModels.swift */; };
+		E9B0CA1928774F3700AAB961 /* BoilerOpenThermSettingsBackendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B0CA1828774F3700AAB961 /* BoilerOpenThermSettingsBackendModel.swift */; };
+		E9B0CA1B2877510600AAB961 /* OpenThermInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B0CA1A2877510600AAB961 /* OpenThermInteractor.swift */; };
+		E9B0CA1D2877510D00AAB961 /* OpenThermPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B0CA1C2877510D00AAB961 /* OpenThermPresenter.swift */; };
+		E9B0CA1F2877511300AAB961 /* OpenThermModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B0CA1E2877511300AAB961 /* OpenThermModels.swift */; };
+		E9BFC48926BA667B003460FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BFC48826BA667B003460FF /* AppDelegate.swift */; };
+		E9BFC48B26BA667B003460FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BFC48A26BA667B003460FF /* SceneDelegate.swift */; };
+		E9BFC49226BA667C003460FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9BFC49126BA667C003460FF /* Assets.xcassets */; };
+		E9BFC49526BA667C003460FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9BFC49326BA667C003460FF /* LaunchScreen.storyboard */; };
+		E9BFC4A226BA9707003460FF /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BFC4A126BA9707003460FF /* NetworkService.swift */; };
+		E9BFC4A426BA9718003460FF /* NetworkDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BFC4A326BA9718003460FF /* NetworkDataFetcher.swift */; };
+		E9BFC4A626BA9721003460FF /* DataFetcherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BFC4A526BA9721003460FF /* DataFetcherService.swift */; };
+		E9BFC4A826BA9728003460FF /* RequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BFC4A726BA9728003460FF /* RequestType.swift */; };
+		E9BFC4AB26BA9782003460FF /* AuthModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BFC4AA26BA9782003460FF /* AuthModels.swift */; };
+		E9C8EE6A28243A0400EEC88E /* BoilerManagementRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C8EE6928243A0400EEC88E /* BoilerManagementRouter.swift */; };
+		E9C8EE6C2824467B00EEC88E /* HandleViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C8EE6B2824467B00EEC88E /* HandleViewRouter.swift */; };
+		E9C8EE7028244B4C00EEC88E /* OffViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C8EE6F28244B4C00EEC88E /* OffViewInteractor.swift */; };
+		E9C8EE7228244B5200EEC88E /* OffViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C8EE7128244B5200EEC88E /* OffViewPresenter.swift */; };
+		E9C8EE7428244B5900EEC88E /* OffViewWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C8EE7328244B5900EEC88E /* OffViewWorker.swift */; };
+		E9C8EE7628244B5F00EEC88E /* OffViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C8EE7528244B5F00EEC88E /* OffViewRouter.swift */; };
+		E9C8EE7828244B6A00EEC88E /* OffViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C8EE7728244B6A00EEC88E /* OffViewModels.swift */; };
+		E9C8EE7E2825193E00EEC88E /* BoilerExpertSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C8EE7D2825193E00EEC88E /* BoilerExpertSettingsViewController.swift */; };
+		E9C8EE802825258400EEC88E /* ExpertBoilerSettingsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C8EE7F2825258400EEC88E /* ExpertBoilerSettingsRouter.swift */; };
+		E9C8EE82282550A000EEC88E /* BoilerExpertSettingsBackendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C8EE81282550A000EEC88E /* BoilerExpertSettingsBackendModel.swift */; };
+		E9C8EE8B2825535600EEC88E /* BoilerExpertSettingsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C8EE8A2825535600EEC88E /* BoilerExpertSettingsWorker.swift */; };
+		E9DB9491281FE2E000F6809F /* BoilerManagementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DB9490281FE2DF00F6809F /* BoilerManagementViewController.swift */; };
+		E9DB9493281FE41200F6809F /* CustomSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DB9492281FE41200F6809F /* CustomSegmentedControl.swift */; };
+		E9DB94962820074200F6809F /* ThermostatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DB94952820074200F6809F /* ThermostatView.swift */; };
+		E9DB949B28200A4C00F6809F /* HandleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DB949A28200A4C00F6809F /* HandleView.swift */; };
+		E9DB949D28200A6300F6809F /* OffView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DB949C28200A6300F6809F /* OffView.swift */; };
+		E9DB94A028218B2F00F6809F /* ThumbTemperatureSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DB949F28218B2F00F6809F /* ThumbTemperatureSlider.swift */; };
+		E9DB94A22822B02A00F6809F /* BoilerBackendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DB94A12822B02A00F6809F /* BoilerBackendModel.swift */; };
+		E9DB94A42822BE7800F6809F /* ThermostatInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DB94A32822BE7800F6809F /* ThermostatInteractor.swift */; };
+		E9DB94A62822BE9700F6809F /* ThermostatModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DB94A52822BE9700F6809F /* ThermostatModels.swift */; };
+		E9DB94A82822CC4E00F6809F /* ThermostatPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DB94A72822CC4E00F6809F /* ThermostatPresenter.swift */; };
+		E9DB94AA2822D51D00F6809F /* ThermostatWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DB94A92822D51D00F6809F /* ThermostatWorker.swift */; };
+		E9DB94AC2823BC8300F6809F /* ThermostatRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DB94AB2823BC8300F6809F /* ThermostatRouter.swift */; };
+		E9F17E0A28EF4FD1001F1D8E /* AuthCodeBackendModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E0928EF4FD1001F1D8E /* AuthCodeBackendModelTests.swift */; };
+		E9F17E0C28EF59B6001F1D8E /* BindedDevicesBackendModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E0B28EF59B6001F1D8E /* BindedDevicesBackendModelTests.swift */; };
+		E9F17E0F28EF5EB5001F1D8E /* LoginBackendModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E0E28EF5EB5001F1D8E /* LoginBackendModelTests.swift */; };
+		E9F17E1328EF67BD001F1D8E /* HotDataBackendModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E1228EF67BD001F1D8E /* HotDataBackendModelTests.swift */; };
+		E9F17E1828F00412001F1D8E /* MenuViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E1728F00412001F1D8E /* MenuViewControllerTests.swift */; };
+		E9F17E1A28F05AB0001F1D8E /* BindedDevicesViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E1928F05AB0001F1D8E /* BindedDevicesViewControllerTests.swift */; };
+		E9F17E1C28F05EFD001F1D8E /* SensorsListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E1B28F05EFD001F1D8E /* SensorsListViewControllerTests.swift */; };
+		E9F17E1F28F0BE95001F1D8E /* BindedDevicesTableViewCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E1E28F0BE95001F1D8E /* BindedDevicesTableViewCellTests.swift */; };
+		E9F17E2128F0C2C2001F1D8E /* MenuTableViewCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E2028F0C2C2001F1D8E /* MenuTableViewCellTests.swift */; };
+		E9F17E2328F0C7B4001F1D8E /* SensorsListTableViewCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E2228F0C7B4001F1D8E /* SensorsListTableViewCellTests.swift */; };
+		E9F17E2628F189D6001F1D8E /* ThermostatViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E2528F189D6001F1D8E /* ThermostatViewTests.swift */; };
+		E9F17E2828F19350001F1D8E /* HandleViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E2728F19350001F1D8E /* HandleViewTests.swift */; };
+		E9F17E2A28F1956B001F1D8E /* OffViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E2928F1956B001F1D8E /* OffViewTests.swift */; };
+		E9F17E2C28F1EB6D001F1D8E /* MainViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E2B28F1EB6D001F1D8E /* MainViewControllerTests.swift */; };
+		E9F17E2F28F2261F001F1D8E /* NetworkServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E2E28F2261F001F1D8E /* NetworkServiceTests.swift */; };
+		E9F17E4628F49837001F1D8E /* TeplocomCloudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E4528F49837001F1D8E /* TeplocomCloudUITests.swift */; };
+		E9F17E4828F49837001F1D8E /* TeplocomCloudUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E4728F49837001F1D8E /* TeplocomCloudUITestsLaunchTests.swift */; };
+		E9F17E4F28F54E4F001F1D8E /* SensorsExpertSettingsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E4E28F54E4F001F1D8E /* SensorsExpertSettingsInteractor.swift */; };
+		E9F17E5128F54E60001F1D8E /* SensorsExpertSettingsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E5028F54E60001F1D8E /* SensorsExpertSettingsPresenter.swift */; };
+		E9F17E5328F54E72001F1D8E /* SensorsExpertSettingsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E5228F54E72001F1D8E /* SensorsExpertSettingsModels.swift */; };
+		E9F17E5728F5B246001F1D8E /* SensorsExpertSettingsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E5628F5B246001F1D8E /* SensorsExpertSettingsWorker.swift */; };
+		E9F17E5928F5BBFF001F1D8E /* SensorsExpertSettingsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E5828F5BBFF001F1D8E /* SensorsExpertSettingsRouter.swift */; };
+		E9F17E5C28F69106001F1D8E /* BindedDevicesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E5B28F69106001F1D8E /* BindedDevicesViewModel.swift */; };
+		E9F17E5E28F69157001F1D8E /* HotDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E5D28F69157001F1D8E /* HotDataViewModel.swift */; };
+		E9F17E6028F692D2001F1D8E /* DeviceInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E5F28F692D2001F1D8E /* DeviceInfoViewModel.swift */; };
+		E9F17E6328F693E6001F1D8E /* BoilerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E6228F693E6001F1D8E /* BoilerViewModel.swift */; };
+		E9F17E6528F6942E001F1D8E /* BoilerExpertSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E6428F6942E001F1D8E /* BoilerExpertSettingsViewModel.swift */; };
+		E9F17E6828F695A0001F1D8E /* TemperatureSensorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E6728F695A0001F1D8E /* TemperatureSensorViewModel.swift */; };
+		E9F17E6A28F695D8001F1D8E /* TemperatureSensorExpertSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E6928F695D8001F1D8E /* TemperatureSensorExpertSettingsViewModel.swift */; };
+		E9F17E6C28F69600001F1D8E /* TemperatureSensorExpertSettingsBackendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E6B28F69600001F1D8E /* TemperatureSensorExpertSettingsBackendModel.swift */; };
+		E9F17E7128F72D4D001F1D8E /* MainScreenBusinessLogicSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E7028F72D4D001F1D8E /* MainScreenBusinessLogicSpy.swift */; };
+		E9F17E7328F72D75001F1D8E /* MainScreenInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E7228F72D75001F1D8E /* MainScreenInteractorTests.swift */; };
+		E9F17E7528F73E6F001F1D8E /* MainScreenPresentationLogicSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E7428F73E6F001F1D8E /* MainScreenPresentationLogicSpy.swift */; };
+		E9F17E7728F741E0001F1D8E /* MainScreenDisplayLogicSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E7628F741E0001F1D8E /* MainScreenDisplayLogicSpy.swift */; };
+		E9F17E7928F74354001F1D8E /* MainScreenPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E7828F74354001F1D8E /* MainScreenPresenterTest.swift */; };
+		E9F17E7E28F80765001F1D8E /* BindedDevicesBusinessLogicSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E7D28F80765001F1D8E /* BindedDevicesBusinessLogicSpy.swift */; };
+		E9F17E8028F809A4001F1D8E /* BindedDevicesInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E7F28F809A4001F1D8E /* BindedDevicesInteractorTests.swift */; };
+		E9F17E8228F809BA001F1D8E /* BindedDevicesPresentationLogicSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E8128F809BA001F1D8E /* BindedDevicesPresentationLogicSpy.swift */; };
+		E9F17E8428F80E3F001F1D8E /* BindedDevicesPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E8328F80E3F001F1D8E /* BindedDevicesPresenterTests.swift */; };
+		E9F17E8628F80E58001F1D8E /* BindedDevicesDisplayLogicSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E8528F80E58001F1D8E /* BindedDevicesDisplayLogicSpy.swift */; };
+		E9F17E8928F85CFE001F1D8E /* PersonalInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F17E8828F85CFE001F1D8E /* PersonalInfoViewModel.swift */; };
+		E9F24CD927ABE69B0073B292 /* PersonalCabinetUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F24CD827ABE69B0073B292 /* PersonalCabinetUtilities.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9F17E0428EF4F87001F1D8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9BFC47D26BA667B003460FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9BFC48426BA667B003460FF;
+			remoteInfo = TeplocomCloud;
+		};
+		E9F17E4928F49837001F1D8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9BFC47D26BA667B003460FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9BFC48426BA667B003460FF;
+			remoteInfo = TeplocomCloud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BBF34D19E4AB4F1DEE7630C /* Pods_TeplocomCloud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeplocomCloud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63E252ECAD710CA14FABDA06 /* Pods-TeplocomCloud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeplocomCloud.debug.xcconfig"; path = "Target Support Files/Pods-TeplocomCloud/Pods-TeplocomCloud.debug.xcconfig"; sourceTree = "<group>"; };
+		CB6DDD7219EA2A1FD5969BA1 /* Pods-TeplocomCloud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeplocomCloud.release.xcconfig"; path = "Target Support Files/Pods-TeplocomCloud/Pods-TeplocomCloud.release.xcconfig"; sourceTree = "<group>"; };
+		E900F5D0279FF3B8006D0D42 /* StandartViewUtilites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandartViewUtilites.swift; sourceTree = "<group>"; };
+		E900F5D2279FF3CE006D0D42 /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
+		E900F5D4279FF3E5006D0D42 /* StandartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandartView.swift; sourceTree = "<group>"; };
+		E900F5D6279FF9FF006D0D42 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		E900F5DA279FFF29006D0D42 /* SMSCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSCodeViewController.swift; sourceTree = "<group>"; };
+		E900F6C427A5351D006D0D42 /* MainScreenUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenUtilities.swift; sourceTree = "<group>"; };
+		E900F6EE27A54CE7006D0D42 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		E900F6F027A54CF4006D0D42 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		E900F6F227A54D09006D0D42 /* MenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		E91966A428FA9441008FDF90 /* NeedUpdateFirmwareViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeedUpdateFirmwareViewModel.swift; sourceTree = "<group>"; };
+		E91A503F26CD0D4100D593F0 /* UIViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
+		E9276FB426C111AA003742C7 /* SignInRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInRouter.swift; sourceTree = "<group>"; };
+		E9276FB626C112E6003742C7 /* SMSCodeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSCodeRouter.swift; sourceTree = "<group>"; };
+		E9276FB826C1136A003742C7 /* SMSCodeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSCodeInteractor.swift; sourceTree = "<group>"; };
+		E9276FBA26C11F56003742C7 /* SMSCodePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSCodePresenter.swift; sourceTree = "<group>"; };
+		E9276FBC26C11F94003742C7 /* SMSCodeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSCodeModels.swift; sourceTree = "<group>"; };
+		E9276FBE26C11F9A003742C7 /* SMSCodeWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSCodeWorker.swift; sourceTree = "<group>"; };
+		E9276FC226C12D1B003742C7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E9276FC626C17853003742C7 /* PersonalCabinetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalCabinetViewController.swift; sourceTree = "<group>"; };
+		E9276FC926C1A05F003742C7 /* PersonalCabinetInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalCabinetInteractor.swift; sourceTree = "<group>"; };
+		E9276FCB26C1A069003742C7 /* PersonalCabinetPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalCabinetPresenter.swift; sourceTree = "<group>"; };
+		E9276FCD26C1A06F003742C7 /* PersonalCabinetModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalCabinetModels.swift; sourceTree = "<group>"; };
+		E9276FCF26C1A0C0003742C7 /* PersonalCabinetWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalCabinetWorker.swift; sourceTree = "<group>"; };
+		E9276FD126C1A1AA003742C7 /* PersonalInfoBackendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInfoBackendModel.swift; sourceTree = "<group>"; };
+		E9276FD426C26FEA003742C7 /* PopoverSearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverSearchTableViewController.swift; sourceTree = "<group>"; };
+		E9276FD826C3C26C003742C7 /* EmailManagementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailManagementViewController.swift; sourceTree = "<group>"; };
+		E9276FDB26C41355003742C7 /* PersonalCabinetRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalCabinetRouter.swift; sourceTree = "<group>"; };
+		E9276FDD26C417B3003742C7 /* EmailManagementInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailManagementInteractor.swift; sourceTree = "<group>"; };
+		E9276FDF26C417B9003742C7 /* EmailManagementRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailManagementRouter.swift; sourceTree = "<group>"; };
+		E9276FE126C42F25003742C7 /* EmailManagementPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailManagementPresenter.swift; sourceTree = "<group>"; };
+		E9276FE326C43003003742C7 /* EmailManagementWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailManagementWorker.swift; sourceTree = "<group>"; };
+		E9276FE526C4300D003742C7 /* EmailManagementModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailManagementModels.swift; sourceTree = "<group>"; };
+		E9276FE726C4358D003742C7 /* PhoneNumberChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberChangeViewController.swift; sourceTree = "<group>"; };
+		E9276FEA26C4364A003742C7 /* PhoneNumberChangeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberChangeInteractor.swift; sourceTree = "<group>"; };
+		E9276FEC26C4367F003742C7 /* PhoneNumberChangePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberChangePresenter.swift; sourceTree = "<group>"; };
+		E9276FEE26C436AE003742C7 /* PhoneNumberChangeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberChangeModels.swift; sourceTree = "<group>"; };
+		E9276FF026C436BF003742C7 /* PhoneNumberChangeWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberChangeWorker.swift; sourceTree = "<group>"; };
+		E9276FF526C58D23003742C7 /* TwoPhoneChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoPhoneChangeViewController.swift; sourceTree = "<group>"; };
+		E9276FF726C58D5A003742C7 /* TwoPhoneChangeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoPhoneChangeInteractor.swift; sourceTree = "<group>"; };
+		E9276FF926C58D85003742C7 /* TwoPhoneChangePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoPhoneChangePresenter.swift; sourceTree = "<group>"; };
+		E9276FFB26C58DAC003742C7 /* TwoPhoneChangeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoPhoneChangeModels.swift; sourceTree = "<group>"; };
+		E9276FFD26C58DB2003742C7 /* TwoPhoneChangeWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoPhoneChangeWorker.swift; sourceTree = "<group>"; };
+		E9276FFF26C58DB9003742C7 /* TwoPhoneChangeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoPhoneChangeRouter.swift; sourceTree = "<group>"; };
+		E927700126C59151003742C7 /* PhoneNumberChangeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberChangeRouter.swift; sourceTree = "<group>"; };
+		E927700326C5969E003742C7 /* ThreePhoneChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreePhoneChangeViewController.swift; sourceTree = "<group>"; };
+		E927700526C596DF003742C7 /* ThreePhoneChangeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreePhoneChangeInteractor.swift; sourceTree = "<group>"; };
+		E927700726C59744003742C7 /* ThreePhoneChangePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreePhoneChangePresenter.swift; sourceTree = "<group>"; };
+		E927700926C59775003742C7 /* ThreePhoneChangeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreePhoneChangeModels.swift; sourceTree = "<group>"; };
+		E927700B26C5977B003742C7 /* ThreePhoneChangeWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreePhoneChangeWorker.swift; sourceTree = "<group>"; };
+		E93C78E027E9B1D800C57C97 /* BindedDevicesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindedDevicesRouter.swift; sourceTree = "<group>"; };
+		E93C78E427E9B93C00C57C97 /* MenuControllerRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuControllerRouter.swift; sourceTree = "<group>"; };
+		E93C78E827E9F41800C57C97 /* SensorsListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorsListInteractor.swift; sourceTree = "<group>"; };
+		E93C78EA27E9F41D00C57C97 /* SensorsListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorsListPresenter.swift; sourceTree = "<group>"; };
+		E93C78EC27E9F42D00C57C97 /* SensorsListModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorsListModels.swift; sourceTree = "<group>"; };
+		E93C78EE27E9FC8400C57C97 /* SensorsListWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorsListWorker.swift; sourceTree = "<group>"; };
+		E93C78F027EA0BA100C57C97 /* SensorsListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorsListRouter.swift; sourceTree = "<group>"; };
+		E93C78F227EA0C2100C57C97 /* SensorLoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorLoaderViewController.swift; sourceTree = "<group>"; };
+		E93C78F627EA0F8400C57C97 /* SensorTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorTypeViewController.swift; sourceTree = "<group>"; };
+		E93C78F927EA26C100C57C97 /* SensorTypeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorTypeTableViewCell.swift; sourceTree = "<group>"; };
+		E93C78FB27EA275700C57C97 /* SensorTypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorTypeModel.swift; sourceTree = "<group>"; };
+		E93C78FD27EB06A700C57C97 /* SensorLoaderInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorLoaderInteractor.swift; sourceTree = "<group>"; };
+		E93C78FF27EB06D400C57C97 /* SensorLoaderPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorLoaderPresenter.swift; sourceTree = "<group>"; };
+		E93C790127EB075300C57C97 /* SensorLoaderModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorLoaderModels.swift; sourceTree = "<group>"; };
+		E93C790327EB081400C57C97 /* UnallocatedSenorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnallocatedSenorModel.swift; sourceTree = "<group>"; };
+		E93C790527EB092100C57C97 /* SensorLoaderWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorLoaderWorker.swift; sourceTree = "<group>"; };
+		E93C790727EB108F00C57C97 /* SensorLoaderRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorLoaderRouter.swift; sourceTree = "<group>"; };
+		E93C792927EB4B2200C57C97 /* SensorSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorSettingsViewController.swift; sourceTree = "<group>"; };
+		E93C792C27EB4C7700C57C97 /* SensorTypeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorTypeRouter.swift; sourceTree = "<group>"; };
+		E93C792E27EB4C9500C57C97 /* SensorSettingsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorSettingsInteractor.swift; sourceTree = "<group>"; };
+		E93C793027EB4C9A00C57C97 /* SensorSettingsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorSettingsPresenter.swift; sourceTree = "<group>"; };
+		E93C793227EB4C9F00C57C97 /* SensorSettingsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorSettingsModels.swift; sourceTree = "<group>"; };
+		E93C793427EB4CA500C57C97 /* SensorSettingsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorSettingsWorker.swift; sourceTree = "<group>"; };
+		E93C793627EB543E00C57C97 /* SensorSettingsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorSettingsRouter.swift; sourceTree = "<group>"; };
+		E951DA2026BBD184001F6795 /* SignInInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInInteractor.swift; sourceTree = "<group>"; };
+		E951DA2226BBD18B001F6795 /* SignInPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPresenter.swift; sourceTree = "<group>"; };
+		E951DA2426BBD192001F6795 /* SignInModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInModels.swift; sourceTree = "<group>"; };
+		E951DA2626BBD19A001F6795 /* SignInWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWorker.swift; sourceTree = "<group>"; };
+		E953433027F74FEC002877A0 /* SensorsUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorsUtilities.swift; sourceTree = "<group>"; };
+		E953433227F9AF1C002877A0 /* SensorsExpertSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorsExpertSettingsViewController.swift; sourceTree = "<group>"; };
+		E953540A27BCD25E0069390A /* BindedDevicesBackendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindedDevicesBackendModel.swift; sourceTree = "<group>"; };
+		E953541C27BFF7970069390A /* BindedDevicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindedDevicesViewController.swift; sourceTree = "<group>"; };
+		E953541F27BFF7F50069390A /* BindedDevicesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindedDevicesInteractor.swift; sourceTree = "<group>"; };
+		E953542127BFF7FB0069390A /* BindedDevicesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindedDevicesPresenter.swift; sourceTree = "<group>"; };
+		E953542327BFF8010069390A /* BindedDevicesModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindedDevicesModels.swift; sourceTree = "<group>"; };
+		E953542527BFFBA70069390A /* BindedDevicesWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindedDevicesWorker.swift; sourceTree = "<group>"; };
+		E953542727BFFFCE0069390A /* BindedDevicesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindedDevicesTableViewCell.swift; sourceTree = "<group>"; };
+		E953543027C12FC70069390A /* DeviceInfoBackendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfoBackendModel.swift; sourceTree = "<group>"; };
+		E953543627C159850069390A /* TemperatureSensorsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureSensorsModels.swift; sourceTree = "<group>"; };
+		E953543C27C24D820069390A /* DeviceHotDataBackendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceHotDataBackendModel.swift; sourceTree = "<group>"; };
+		E953543E27C24E850069390A /* MainScreenInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenInteractor.swift; sourceTree = "<group>"; };
+		E953544027C24E8D0069390A /* MainScreenPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenPresenter.swift; sourceTree = "<group>"; };
+		E953544227C24EC00069390A /* MainScreenModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenModels.swift; sourceTree = "<group>"; };
+		E953544427C24EC80069390A /* MainScreenWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenWorker.swift; sourceTree = "<group>"; };
+		E953546B27C2761D0069390A /* SensorsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorsListViewController.swift; sourceTree = "<group>"; };
+		E953546E27C285660069390A /* SensorsListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorsListTableViewCell.swift; sourceTree = "<group>"; };
+		E95AB1CF282BB7750060454F /* RelayOneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelayOneView.swift; sourceTree = "<group>"; };
+		E95AB1D2282BB78A0060454F /* RelayTwoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelayTwoView.swift; sourceTree = "<group>"; };
+		E95AB1D6282BB7AE0060454F /* OpenThermView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenThermView.swift; sourceTree = "<group>"; };
+		E9B0C9EF287555D400AAB961 /* AboutDeviceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutDeviceViewController.swift; sourceTree = "<group>"; };
+		E9B0C9F128756E5000AAB961 /* AboutDeviceModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutDeviceModels.swift; sourceTree = "<group>"; };
+		E9B0C9F328756EC700AAB961 /* AboutDeviceInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutDeviceInteractor.swift; sourceTree = "<group>"; };
+		E9B0C9F528756ECE00AAB961 /* AboutDevicePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutDevicePresenter.swift; sourceTree = "<group>"; };
+		E9B0C9F728756ED600AAB961 /* AboutDeviceWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutDeviceWorker.swift; sourceTree = "<group>"; };
+		E9B0C9F928756EDB00AAB961 /* AboutDeviceRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutDeviceRouter.swift; sourceTree = "<group>"; };
+		E9B0C9FC2875D30700AAB961 /* NotificationSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettingsViewController.swift; sourceTree = "<group>"; };
+		E9B0C9FE2875F02600AAB961 /* NotificationSettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettingsModel.swift; sourceTree = "<group>"; };
+		E9B0CA002875F4EF00AAB961 /* NotificationSettingsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettingsInteractor.swift; sourceTree = "<group>"; };
+		E9B0CA022875F72F00AAB961 /* NotificationSettingsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettingsPresenter.swift; sourceTree = "<group>"; };
+		E9B0CA042875F73600AAB961 /* NotificationSettingsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettingsWorker.swift; sourceTree = "<group>"; };
+		E9B0CA062875F73B00AAB961 /* NotificationSettingsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettingsRouter.swift; sourceTree = "<group>"; };
+		E9B0CA082875F74000AAB961 /* NotificationSettingsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettingsModels.swift; sourceTree = "<group>"; };
+		E9B0CA0A2876C59D00AAB961 /* RelayOneInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelayOneInteractor.swift; sourceTree = "<group>"; };
+		E9B0CA0C2876C5A400AAB961 /* RelayOnePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelayOnePresenter.swift; sourceTree = "<group>"; };
+		E9B0CA0E2876C5CE00AAB961 /* RelayOneModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelayOneModels.swift; sourceTree = "<group>"; };
+		E9B0CA102877283800AAB961 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		E9B0CA122877429600AAB961 /* RelayTwoInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelayTwoInteractor.swift; sourceTree = "<group>"; };
+		E9B0CA142877429C00AAB961 /* RelayTwoPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelayTwoPresenter.swift; sourceTree = "<group>"; };
+		E9B0CA16287742A000AAB961 /* RelayTwoModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelayTwoModels.swift; sourceTree = "<group>"; };
+		E9B0CA1828774F3700AAB961 /* BoilerOpenThermSettingsBackendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoilerOpenThermSettingsBackendModel.swift; sourceTree = "<group>"; };
+		E9B0CA1A2877510600AAB961 /* OpenThermInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenThermInteractor.swift; sourceTree = "<group>"; };
+		E9B0CA1C2877510D00AAB961 /* OpenThermPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenThermPresenter.swift; sourceTree = "<group>"; };
+		E9B0CA1E2877511300AAB961 /* OpenThermModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenThermModels.swift; sourceTree = "<group>"; };
+		E9BFC48526BA667B003460FF /* TeplocomCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeplocomCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9BFC48826BA667B003460FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9BFC48A26BA667B003460FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E9BFC49126BA667C003460FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9BFC49426BA667C003460FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9BFC49626BA667C003460FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9BFC4A126BA9707003460FF /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		E9BFC4A326BA9718003460FF /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
+		E9BFC4A526BA9721003460FF /* DataFetcherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetcherService.swift; sourceTree = "<group>"; };
+		E9BFC4A726BA9728003460FF /* RequestType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestType.swift; sourceTree = "<group>"; };
+		E9BFC4AA26BA9782003460FF /* AuthModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModels.swift; sourceTree = "<group>"; };
+		E9C8EE6928243A0400EEC88E /* BoilerManagementRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoilerManagementRouter.swift; sourceTree = "<group>"; };
+		E9C8EE6B2824467B00EEC88E /* HandleViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleViewRouter.swift; sourceTree = "<group>"; };
+		E9C8EE6F28244B4C00EEC88E /* OffViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffViewInteractor.swift; sourceTree = "<group>"; };
+		E9C8EE7128244B5200EEC88E /* OffViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffViewPresenter.swift; sourceTree = "<group>"; };
+		E9C8EE7328244B5900EEC88E /* OffViewWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffViewWorker.swift; sourceTree = "<group>"; };
+		E9C8EE7528244B5F00EEC88E /* OffViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffViewRouter.swift; sourceTree = "<group>"; };
+		E9C8EE7728244B6A00EEC88E /* OffViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffViewModels.swift; sourceTree = "<group>"; };
+		E9C8EE7D2825193E00EEC88E /* BoilerExpertSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoilerExpertSettingsViewController.swift; sourceTree = "<group>"; };
+		E9C8EE7F2825258400EEC88E /* ExpertBoilerSettingsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpertBoilerSettingsRouter.swift; sourceTree = "<group>"; };
+		E9C8EE81282550A000EEC88E /* BoilerExpertSettingsBackendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoilerExpertSettingsBackendModel.swift; sourceTree = "<group>"; };
+		E9C8EE8A2825535600EEC88E /* BoilerExpertSettingsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoilerExpertSettingsWorker.swift; sourceTree = "<group>"; };
+		E9DB9490281FE2DF00F6809F /* BoilerManagementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoilerManagementViewController.swift; sourceTree = "<group>"; };
+		E9DB9492281FE41200F6809F /* CustomSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentedControl.swift; sourceTree = "<group>"; };
+		E9DB94952820074200F6809F /* ThermostatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermostatView.swift; sourceTree = "<group>"; };
+		E9DB949A28200A4C00F6809F /* HandleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleView.swift; sourceTree = "<group>"; };
+		E9DB949C28200A6300F6809F /* OffView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffView.swift; sourceTree = "<group>"; };
+		E9DB949F28218B2F00F6809F /* ThumbTemperatureSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbTemperatureSlider.swift; sourceTree = "<group>"; };
+		E9DB94A12822B02A00F6809F /* BoilerBackendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoilerBackendModel.swift; sourceTree = "<group>"; };
+		E9DB94A32822BE7800F6809F /* ThermostatInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermostatInteractor.swift; sourceTree = "<group>"; };
+		E9DB94A52822BE9700F6809F /* ThermostatModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermostatModels.swift; sourceTree = "<group>"; };
+		E9DB94A72822CC4E00F6809F /* ThermostatPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermostatPresenter.swift; sourceTree = "<group>"; };
+		E9DB94A92822D51D00F6809F /* ThermostatWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermostatWorker.swift; sourceTree = "<group>"; };
+		E9DB94AB2823BC8300F6809F /* ThermostatRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermostatRouter.swift; sourceTree = "<group>"; };
+		E9F17E0028EF4F87001F1D8E /* TeplocomCloudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeplocomCloudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F17E0928EF4FD1001F1D8E /* AuthCodeBackendModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCodeBackendModelTests.swift; sourceTree = "<group>"; };
+		E9F17E0B28EF59B6001F1D8E /* BindedDevicesBackendModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindedDevicesBackendModelTests.swift; sourceTree = "<group>"; };
+		E9F17E0E28EF5EB5001F1D8E /* LoginBackendModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginBackendModelTests.swift; sourceTree = "<group>"; };
+		E9F17E1228EF67BD001F1D8E /* HotDataBackendModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotDataBackendModelTests.swift; sourceTree = "<group>"; };
+		E9F17E1728F00412001F1D8E /* MenuViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewControllerTests.swift; sourceTree = "<group>"; };
+		E9F17E1928F05AB0001F1D8E /* BindedDevicesViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindedDevicesViewControllerTests.swift; sourceTree = "<group>"; };
+		E9F17E1B28F05EFD001F1D8E /* SensorsListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorsListViewControllerTests.swift; sourceTree = "<group>"; };
+		E9F17E1E28F0BE95001F1D8E /* BindedDevicesTableViewCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindedDevicesTableViewCellTests.swift; sourceTree = "<group>"; };
+		E9F17E2028F0C2C2001F1D8E /* MenuTableViewCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCellTests.swift; sourceTree = "<group>"; };
+		E9F17E2228F0C7B4001F1D8E /* SensorsListTableViewCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorsListTableViewCellTests.swift; sourceTree = "<group>"; };
+		E9F17E2528F189D6001F1D8E /* ThermostatViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermostatViewTests.swift; sourceTree = "<group>"; };
+		E9F17E2728F19350001F1D8E /* HandleViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleViewTests.swift; sourceTree = "<group>"; };
+		E9F17E2928F1956B001F1D8E /* OffViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffViewTests.swift; sourceTree = "<group>"; };
+		E9F17E2B28F1EB6D001F1D8E /* MainViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerTests.swift; sourceTree = "<group>"; };
+		E9F17E2E28F2261F001F1D8E /* NetworkServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceTests.swift; sourceTree = "<group>"; };
+		E9F17E4328F49837001F1D8E /* TeplocomCloudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeplocomCloudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F17E4528F49837001F1D8E /* TeplocomCloudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeplocomCloudUITests.swift; sourceTree = "<group>"; };
+		E9F17E4728F49837001F1D8E /* TeplocomCloudUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeplocomCloudUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E9F17E4E28F54E4F001F1D8E /* SensorsExpertSettingsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorsExpertSettingsInteractor.swift; sourceTree = "<group>"; };
+		E9F17E5028F54E60001F1D8E /* SensorsExpertSettingsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorsExpertSettingsPresenter.swift; sourceTree = "<group>"; };
+		E9F17E5228F54E72001F1D8E /* SensorsExpertSettingsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorsExpertSettingsModels.swift; sourceTree = "<group>"; };
+		E9F17E5628F5B246001F1D8E /* SensorsExpertSettingsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorsExpertSettingsWorker.swift; sourceTree = "<group>"; };
+		E9F17E5828F5BBFF001F1D8E /* SensorsExpertSettingsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorsExpertSettingsRouter.swift; sourceTree = "<group>"; };
+		E9F17E5B28F69106001F1D8E /* BindedDevicesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindedDevicesViewModel.swift; sourceTree = "<group>"; };
+		E9F17E5D28F69157001F1D8E /* HotDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotDataViewModel.swift; sourceTree = "<group>"; };
+		E9F17E5F28F692D2001F1D8E /* DeviceInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfoViewModel.swift; sourceTree = "<group>"; };
+		E9F17E6228F693E6001F1D8E /* BoilerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoilerViewModel.swift; sourceTree = "<group>"; };
+		E9F17E6428F6942E001F1D8E /* BoilerExpertSettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoilerExpertSettingsViewModel.swift; sourceTree = "<group>"; };
+		E9F17E6728F695A0001F1D8E /* TemperatureSensorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureSensorViewModel.swift; sourceTree = "<group>"; };
+		E9F17E6928F695D8001F1D8E /* TemperatureSensorExpertSettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureSensorExpertSettingsViewModel.swift; sourceTree = "<group>"; };
+		E9F17E6B28F69600001F1D8E /* TemperatureSensorExpertSettingsBackendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureSensorExpertSettingsBackendModel.swift; sourceTree = "<group>"; };
+		E9F17E7028F72D4D001F1D8E /* MainScreenBusinessLogicSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenBusinessLogicSpy.swift; sourceTree = "<group>"; };
+		E9F17E7228F72D75001F1D8E /* MainScreenInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenInteractorTests.swift; sourceTree = "<group>"; };
+		E9F17E7428F73E6F001F1D8E /* MainScreenPresentationLogicSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenPresentationLogicSpy.swift; sourceTree = "<group>"; };
+		E9F17E7628F741E0001F1D8E /* MainScreenDisplayLogicSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenDisplayLogicSpy.swift; sourceTree = "<group>"; };
+		E9F17E7828F74354001F1D8E /* MainScreenPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenPresenterTest.swift; sourceTree = "<group>"; };
+		E9F17E7D28F80765001F1D8E /* BindedDevicesBusinessLogicSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindedDevicesBusinessLogicSpy.swift; sourceTree = "<group>"; };
+		E9F17E7F28F809A4001F1D8E /* BindedDevicesInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindedDevicesInteractorTests.swift; sourceTree = "<group>"; };
+		E9F17E8128F809BA001F1D8E /* BindedDevicesPresentationLogicSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindedDevicesPresentationLogicSpy.swift; sourceTree = "<group>"; };
+		E9F17E8328F80E3F001F1D8E /* BindedDevicesPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindedDevicesPresenterTests.swift; sourceTree = "<group>"; };
+		E9F17E8528F80E58001F1D8E /* BindedDevicesDisplayLogicSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindedDevicesDisplayLogicSpy.swift; sourceTree = "<group>"; };
+		E9F17E8828F85CFE001F1D8E /* PersonalInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInfoViewModel.swift; sourceTree = "<group>"; };
+		E9F24CD827ABE69B0073B292 /* PersonalCabinetUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalCabinetUtilities.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9BFC48226BA667B003460FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E160240AF9208726FBDF5201 /* Pods_TeplocomCloud.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F17DFD28EF4F87001F1D8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F17E4028F49837001F1D8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F2030E0DEC7C0B316CDEEFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BBF34D19E4AB4F1DEE7630C /* Pods_TeplocomCloud.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A772DEB088D69182D6456AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63E252ECAD710CA14FABDA06 /* Pods-TeplocomCloud.debug.xcconfig */,
+				CB6DDD7219EA2A1FD5969BA1 /* Pods-TeplocomCloud.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E900F5CF279FF3A2006D0D42 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E91966A628FA99C7008FDF90 /* Views */,
+				E91966A728FA9A45008FDF90 /* Extensions */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		E900F6C627A53E83006D0D42 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				E951DA1E26BBD16A001F6795 /* SignIn */,
+				E951DA1F26BBD171001F6795 /* SMSCode */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		E900F6C727A53F10006D0D42 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E9276FC226C12D1B003742C7 /* MainViewController.swift */,
+				E953543E27C24E850069390A /* MainScreenInteractor.swift */,
+				E953544027C24E8D0069390A /* MainScreenPresenter.swift */,
+				E953544227C24EC00069390A /* MainScreenModels.swift */,
+				E953544427C24EC80069390A /* MainScreenWorker.swift */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		E900F6ED27A54CC9006D0D42 /* MenuScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E900F6F027A54CF4006D0D42 /* MenuViewController.swift */,
+				E900F6EE27A54CE7006D0D42 /* MenuTableViewCell.swift */,
+				E93C78E427E9B93C00C57C97 /* MenuControllerRouter.swift */,
+			);
+			path = MenuScreen;
+			sourceTree = "<group>";
+		};
+		E900F6F427A54D0C006D0D42 /* InterfaceModels */ = {
+			isa = PBXGroup;
+			children = (
+				E900F6F227A54D09006D0D42 /* MenuModel.swift */,
+				E93C78FB27EA275700C57C97 /* SensorTypeModel.swift */,
+			);
+			path = InterfaceModels;
+			sourceTree = "<group>";
+		};
+		E91966A628FA99C7008FDF90 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E900F5D4279FF3E5006D0D42 /* StandartView.swift */,
+				E900F5D0279FF3B8006D0D42 /* StandartViewUtilites.swift */,
+				E900F6C427A5351D006D0D42 /* MainScreenUtilities.swift */,
+				E9F24CD827ABE69B0073B292 /* PersonalCabinetUtilities.swift */,
+				E953433027F74FEC002877A0 /* SensorsUtilities.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E91966A728FA9A45008FDF90 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E91A503F26CD0D4100D593F0 /* UIViewController + Extension.swift */,
+				E900F5D2279FF3CE006D0D42 /* UIView + Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E91966A828FA9B12008FDF90 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				E9BFC48826BA667B003460FF /* AppDelegate.swift */,
+				E9BFC48A26BA667B003460FF /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		E91966A928FA9B41008FDF90 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E9BFC49126BA667C003460FF /* Assets.xcassets */,
+				E9BFC49326BA667C003460FF /* LaunchScreen.storyboard */,
+				E9BFC49626BA667C003460FF /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E9276FC826C17856003742C7 /* PersonalCabinet */ = {
+			isa = PBXGroup;
+			children = (
+				E9276FC626C17853003742C7 /* PersonalCabinetViewController.swift */,
+				E9276FC926C1A05F003742C7 /* PersonalCabinetInteractor.swift */,
+				E9276FCB26C1A069003742C7 /* PersonalCabinetPresenter.swift */,
+				E9276FCD26C1A06F003742C7 /* PersonalCabinetModels.swift */,
+				E9276FCF26C1A0C0003742C7 /* PersonalCabinetWorker.swift */,
+				E9276FDB26C41355003742C7 /* PersonalCabinetRouter.swift */,
+				E9276FD326C26FD6003742C7 /* View */,
+				E9276FDA26C3C48C003742C7 /* Email */,
+				E9276FE926C43593003742C7 /* PhoneNumberChange */,
+			);
+			path = PersonalCabinet;
+			sourceTree = "<group>";
+		};
+		E9276FD326C26FD6003742C7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E9276FD426C26FEA003742C7 /* PopoverSearchTableViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E9276FDA26C3C48C003742C7 /* Email */ = {
+			isa = PBXGroup;
+			children = (
+				E9276FD826C3C26C003742C7 /* EmailManagementViewController.swift */,
+				E9276FDD26C417B3003742C7 /* EmailManagementInteractor.swift */,
+				E9276FE126C42F25003742C7 /* EmailManagementPresenter.swift */,
+				E9276FE326C43003003742C7 /* EmailManagementWorker.swift */,
+				E9276FE526C4300D003742C7 /* EmailManagementModels.swift */,
+				E9276FDF26C417B9003742C7 /* EmailManagementRouter.swift */,
+			);
+			path = Email;
+			sourceTree = "<group>";
+		};
+		E9276FE926C43593003742C7 /* PhoneNumberChange */ = {
+			isa = PBXGroup;
+			children = (
+				E9276FF226C58CC8003742C7 /* One */,
+				E9276FF326C58CD2003742C7 /* Two */,
+				E9276FF426C58CDA003742C7 /* Three */,
+			);
+			path = PhoneNumberChange;
+			sourceTree = "<group>";
+		};
+		E9276FF226C58CC8003742C7 /* One */ = {
+			isa = PBXGroup;
+			children = (
+				E9276FE726C4358D003742C7 /* PhoneNumberChangeViewController.swift */,
+				E9276FEA26C4364A003742C7 /* PhoneNumberChangeInteractor.swift */,
+				E9276FEC26C4367F003742C7 /* PhoneNumberChangePresenter.swift */,
+				E9276FEE26C436AE003742C7 /* PhoneNumberChangeModels.swift */,
+				E9276FF026C436BF003742C7 /* PhoneNumberChangeWorker.swift */,
+				E927700126C59151003742C7 /* PhoneNumberChangeRouter.swift */,
+			);
+			path = One;
+			sourceTree = "<group>";
+		};
+		E9276FF326C58CD2003742C7 /* Two */ = {
+			isa = PBXGroup;
+			children = (
+				E9276FF526C58D23003742C7 /* TwoPhoneChangeViewController.swift */,
+				E9276FF726C58D5A003742C7 /* TwoPhoneChangeInteractor.swift */,
+				E9276FF926C58D85003742C7 /* TwoPhoneChangePresenter.swift */,
+				E9276FFB26C58DAC003742C7 /* TwoPhoneChangeModels.swift */,
+				E9276FFD26C58DB2003742C7 /* TwoPhoneChangeWorker.swift */,
+				E9276FFF26C58DB9003742C7 /* TwoPhoneChangeRouter.swift */,
+			);
+			path = Two;
+			sourceTree = "<group>";
+		};
+		E9276FF426C58CDA003742C7 /* Three */ = {
+			isa = PBXGroup;
+			children = (
+				E927700326C5969E003742C7 /* ThreePhoneChangeViewController.swift */,
+				E927700526C596DF003742C7 /* ThreePhoneChangeInteractor.swift */,
+				E927700726C59744003742C7 /* ThreePhoneChangePresenter.swift */,
+				E927700926C59775003742C7 /* ThreePhoneChangeModels.swift */,
+				E927700B26C5977B003742C7 /* ThreePhoneChangeWorker.swift */,
+			);
+			path = Three;
+			sourceTree = "<group>";
+		};
+		E93C78F427EA0C2800C57C97 /* SensorLoader */ = {
+			isa = PBXGroup;
+			children = (
+				E93C78F227EA0C2100C57C97 /* SensorLoaderViewController.swift */,
+				E93C78FD27EB06A700C57C97 /* SensorLoaderInteractor.swift */,
+				E93C78FF27EB06D400C57C97 /* SensorLoaderPresenter.swift */,
+				E93C790127EB075300C57C97 /* SensorLoaderModels.swift */,
+				E93C790527EB092100C57C97 /* SensorLoaderWorker.swift */,
+				E93C790727EB108F00C57C97 /* SensorLoaderRouter.swift */,
+			);
+			path = SensorLoader;
+			sourceTree = "<group>";
+		};
+		E93C78F527EA0C3100C57C97 /* Sensors */ = {
+			isa = PBXGroup;
+			children = (
+				E953546D27C284640069390A /* SensorsList */,
+				E93C78F427EA0C2800C57C97 /* SensorLoader */,
+				E93C78F827EA0F8A00C57C97 /* SensorType */,
+				E93C792B27EB4BD800C57C97 /* SensorSettings */,
+				E953433427F9AF21002877A0 /* ExpertSettings */,
+			);
+			path = Sensors;
+			sourceTree = "<group>";
+		};
+		E93C78F827EA0F8A00C57C97 /* SensorType */ = {
+			isa = PBXGroup;
+			children = (
+				E93C78F627EA0F8400C57C97 /* SensorTypeViewController.swift */,
+				E93C78F927EA26C100C57C97 /* SensorTypeTableViewCell.swift */,
+				E93C792C27EB4C7700C57C97 /* SensorTypeRouter.swift */,
+			);
+			path = SensorType;
+			sourceTree = "<group>";
+		};
+		E93C792B27EB4BD800C57C97 /* SensorSettings */ = {
+			isa = PBXGroup;
+			children = (
+				E93C792927EB4B2200C57C97 /* SensorSettingsViewController.swift */,
+				E93C792E27EB4C9500C57C97 /* SensorSettingsInteractor.swift */,
+				E93C793027EB4C9A00C57C97 /* SensorSettingsPresenter.swift */,
+				E93C793227EB4C9F00C57C97 /* SensorSettingsModels.swift */,
+				E93C793427EB4CA500C57C97 /* SensorSettingsWorker.swift */,
+				E93C793627EB543E00C57C97 /* SensorSettingsRouter.swift */,
+			);
+			path = SensorSettings;
+			sourceTree = "<group>";
+		};
+		E951DA1E26BBD16A001F6795 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				E900F5D6279FF9FF006D0D42 /* SignInViewController.swift */,
+				E951DA2026BBD184001F6795 /* SignInInteractor.swift */,
+				E951DA2226BBD18B001F6795 /* SignInPresenter.swift */,
+				E951DA2426BBD192001F6795 /* SignInModels.swift */,
+				E951DA2626BBD19A001F6795 /* SignInWorker.swift */,
+				E9276FB426C111AA003742C7 /* SignInRouter.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		E951DA1F26BBD171001F6795 /* SMSCode */ = {
+			isa = PBXGroup;
+			children = (
+				E900F5DA279FFF29006D0D42 /* SMSCodeViewController.swift */,
+				E9276FB826C1136A003742C7 /* SMSCodeInteractor.swift */,
+				E9276FBA26C11F56003742C7 /* SMSCodePresenter.swift */,
+				E9276FBC26C11F94003742C7 /* SMSCodeModels.swift */,
+				E9276FBE26C11F9A003742C7 /* SMSCodeWorker.swift */,
+				E9276FB626C112E6003742C7 /* SMSCodeRouter.swift */,
+			);
+			path = SMSCode;
+			sourceTree = "<group>";
+		};
+		E953433427F9AF21002877A0 /* ExpertSettings */ = {
+			isa = PBXGroup;
+			children = (
+				E953433227F9AF1C002877A0 /* SensorsExpertSettingsViewController.swift */,
+				E9F17E4E28F54E4F001F1D8E /* SensorsExpertSettingsInteractor.swift */,
+				E9F17E5028F54E60001F1D8E /* SensorsExpertSettingsPresenter.swift */,
+				E9F17E5228F54E72001F1D8E /* SensorsExpertSettingsModels.swift */,
+				E9F17E5628F5B246001F1D8E /* SensorsExpertSettingsWorker.swift */,
+				E9F17E5828F5BBFF001F1D8E /* SensorsExpertSettingsRouter.swift */,
+			);
+			path = ExpertSettings;
+			sourceTree = "<group>";
+		};
+		E953540F27BCD5400069390A /* BackendModels */ = {
+			isa = PBXGroup;
+			children = (
+				E9BFC4AA26BA9782003460FF /* AuthModels.swift */,
+				E9276FD126C1A1AA003742C7 /* PersonalInfoBackendModel.swift */,
+				E953540A27BCD25E0069390A /* BindedDevicesBackendModel.swift */,
+				E953543C27C24D820069390A /* DeviceHotDataBackendModel.swift */,
+				E953543027C12FC70069390A /* DeviceInfoBackendModel.swift */,
+				E9B0C9FE2875F02600AAB961 /* NotificationSettingsModel.swift */,
+				E9C8EE832825516A00EEC88E /* Boiler */,
+				E953542B27C113880069390A /* Sensors */,
+			);
+			path = BackendModels;
+			sourceTree = "<group>";
+		};
+		E953541E27BFF7A30069390A /* BindedDevices */ = {
+			isa = PBXGroup;
+			children = (
+				E953541C27BFF7970069390A /* BindedDevicesViewController.swift */,
+				E9F17E8728F85A47001F1D8E /* View */,
+				E953541F27BFF7F50069390A /* BindedDevicesInteractor.swift */,
+				E953542127BFF7FB0069390A /* BindedDevicesPresenter.swift */,
+				E953542327BFF8010069390A /* BindedDevicesModels.swift */,
+				E953542527BFFBA70069390A /* BindedDevicesWorker.swift */,
+				E93C78E027E9B1D800C57C97 /* BindedDevicesRouter.swift */,
+			);
+			path = BindedDevices;
+			sourceTree = "<group>";
+		};
+		E953542B27C113880069390A /* Sensors */ = {
+			isa = PBXGroup;
+			children = (
+				E953543627C159850069390A /* TemperatureSensorsModels.swift */,
+				E9F17E6B28F69600001F1D8E /* TemperatureSensorExpertSettingsBackendModel.swift */,
+				E93C790327EB081400C57C97 /* UnallocatedSenorModel.swift */,
+			);
+			path = Sensors;
+			sourceTree = "<group>";
+		};
+		E953546827C2751E0069390A /* Main Screen */ = {
+			isa = PBXGroup;
+			children = (
+				E900F6C727A53F10006D0D42 /* MainViewController */,
+			);
+			path = "Main Screen";
+			sourceTree = "<group>";
+		};
+		E953546D27C284640069390A /* SensorsList */ = {
+			isa = PBXGroup;
+			children = (
+				E953546B27C2761D0069390A /* SensorsListViewController.swift */,
+				E953546E27C285660069390A /* SensorsListTableViewCell.swift */,
+				E93C78E827E9F41800C57C97 /* SensorsListInteractor.swift */,
+				E93C78EA27E9F41D00C57C97 /* SensorsListPresenter.swift */,
+				E93C78EC27E9F42D00C57C97 /* SensorsListModels.swift */,
+				E93C78EE27E9FC8400C57C97 /* SensorsListWorker.swift */,
+				E93C78F027EA0BA100C57C97 /* SensorsListRouter.swift */,
+			);
+			path = SensorsList;
+			sourceTree = "<group>";
+		};
+		E95AB1D1282BB7790060454F /* RelayOne */ = {
+			isa = PBXGroup;
+			children = (
+				E95AB1CF282BB7750060454F /* RelayOneView.swift */,
+				E9B0CA0A2876C59D00AAB961 /* RelayOneInteractor.swift */,
+				E9B0CA0C2876C5A400AAB961 /* RelayOnePresenter.swift */,
+				E9B0CA0E2876C5CE00AAB961 /* RelayOneModels.swift */,
+			);
+			path = RelayOne;
+			sourceTree = "<group>";
+		};
+		E95AB1D4282BB7900060454F /* RelayTwo */ = {
+			isa = PBXGroup;
+			children = (
+				E95AB1D2282BB78A0060454F /* RelayTwoView.swift */,
+				E9B0CA122877429600AAB961 /* RelayTwoInteractor.swift */,
+				E9B0CA142877429C00AAB961 /* RelayTwoPresenter.swift */,
+				E9B0CA16287742A000AAB961 /* RelayTwoModels.swift */,
+			);
+			path = RelayTwo;
+			sourceTree = "<group>";
+		};
+		E95AB1D5282BB7970060454F /* OpenTherm */ = {
+			isa = PBXGroup;
+			children = (
+				E95AB1D6282BB7AE0060454F /* OpenThermView.swift */,
+				E9B0CA1A2877510600AAB961 /* OpenThermInteractor.swift */,
+				E9B0CA1C2877510D00AAB961 /* OpenThermPresenter.swift */,
+				E9B0CA1E2877511300AAB961 /* OpenThermModels.swift */,
+			);
+			path = OpenTherm;
+			sourceTree = "<group>";
+		};
+		E9B0C9EE287555B500AAB961 /* About Device */ = {
+			isa = PBXGroup;
+			children = (
+				E9B0C9EF287555D400AAB961 /* AboutDeviceViewController.swift */,
+				E9B0C9F328756EC700AAB961 /* AboutDeviceInteractor.swift */,
+				E9B0C9F528756ECE00AAB961 /* AboutDevicePresenter.swift */,
+				E9B0C9F728756ED600AAB961 /* AboutDeviceWorker.swift */,
+				E9B0C9F928756EDB00AAB961 /* AboutDeviceRouter.swift */,
+				E9B0C9F128756E5000AAB961 /* AboutDeviceModels.swift */,
+				E9B0C9FB2875D2E500AAB961 /* NotificationSettings */,
+			);
+			path = "About Device";
+			sourceTree = "<group>";
+		};
+		E9B0C9FB2875D2E500AAB961 /* NotificationSettings */ = {
+			isa = PBXGroup;
+			children = (
+				E9B0C9FC2875D30700AAB961 /* NotificationSettingsViewController.swift */,
+				E9B0CA002875F4EF00AAB961 /* NotificationSettingsInteractor.swift */,
+				E9B0CA022875F72F00AAB961 /* NotificationSettingsPresenter.swift */,
+				E9B0CA042875F73600AAB961 /* NotificationSettingsWorker.swift */,
+				E9B0CA062875F73B00AAB961 /* NotificationSettingsRouter.swift */,
+				E9B0CA082875F74000AAB961 /* NotificationSettingsModels.swift */,
+			);
+			path = NotificationSettings;
+			sourceTree = "<group>";
+		};
+		E9BFC47C26BA667B003460FF = {
+			isa = PBXGroup;
+			children = (
+				E9BFC48726BA667B003460FF /* TeplocomCloud */,
+				E9F17E0128EF4F87001F1D8E /* TeplocomCloudTests */,
+				E9F17E4428F49837001F1D8E /* TeplocomCloudUITests */,
+				E9BFC48626BA667B003460FF /* Products */,
+				9A772DEB088D69182D6456AD /* Pods */,
+				5F2030E0DEC7C0B316CDEEFD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E9BFC48626BA667B003460FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9BFC48526BA667B003460FF /* TeplocomCloud.app */,
+				E9F17E0028EF4F87001F1D8E /* TeplocomCloudTests.xctest */,
+				E9F17E4328F49837001F1D8E /* TeplocomCloudUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9BFC48726BA667B003460FF /* TeplocomCloud */ = {
+			isa = PBXGroup;
+			children = (
+				E91966A828FA9B12008FDF90 /* Application */,
+				E9BFC4A926BA974F003460FF /* NetworkLayer */,
+				E9BFC4AC26BA9789003460FF /* Models */,
+				E900F6C627A53E83006D0D42 /* Auth */,
+				E953546827C2751E0069390A /* Main Screen */,
+				E953541E27BFF7A30069390A /* BindedDevices */,
+				E900F6ED27A54CC9006D0D42 /* MenuScreen */,
+				E9276FC826C17856003742C7 /* PersonalCabinet */,
+				E9DB9494281FEC5C00F6809F /* Boiler Management */,
+				E9C8EE7A282518F300EEC88E /* BoilerExpertSettings */,
+				E93C78F527EA0C3100C57C97 /* Sensors */,
+				E9B0C9EE287555B500AAB961 /* About Device */,
+				E900F5CF279FF3A2006D0D42 /* Utilities */,
+				E91966A928FA9B41008FDF90 /* Resources */,
+			);
+			path = TeplocomCloud;
+			sourceTree = "<group>";
+		};
+		E9BFC4A926BA974F003460FF /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				E9BFC4A126BA9707003460FF /* NetworkService.swift */,
+				E9BFC4A326BA9718003460FF /* NetworkDataFetcher.swift */,
+				E9BFC4A526BA9721003460FF /* DataFetcherService.swift */,
+				E9BFC4A726BA9728003460FF /* RequestType.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		E9BFC4AC26BA9789003460FF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E9F17E5A28F68AEB001F1D8E /* ViewModels */,
+				E953540F27BCD5400069390A /* BackendModels */,
+				E900F6F427A54D0C006D0D42 /* InterfaceModels */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E9C8EE68282428BA00EEC88E /* Thermostat */ = {
+			isa = PBXGroup;
+			children = (
+				E9DB94952820074200F6809F /* ThermostatView.swift */,
+				E9DB94A32822BE7800F6809F /* ThermostatInteractor.swift */,
+				E9DB94A72822CC4E00F6809F /* ThermostatPresenter.swift */,
+				E9DB94AB2823BC8300F6809F /* ThermostatRouter.swift */,
+				E9DB94A92822D51D00F6809F /* ThermostatWorker.swift */,
+				E9DB94A52822BE9700F6809F /* ThermostatModels.swift */,
+			);
+			path = Thermostat;
+			sourceTree = "<group>";
+		};
+		E9C8EE6D2824486F00EEC88E /* Handle */ = {
+			isa = PBXGroup;
+			children = (
+				E9DB949A28200A4C00F6809F /* HandleView.swift */,
+				E9C8EE6B2824467B00EEC88E /* HandleViewRouter.swift */,
+			);
+			path = Handle;
+			sourceTree = "<group>";
+		};
+		E9C8EE6E28244AD800EEC88E /* Off */ = {
+			isa = PBXGroup;
+			children = (
+				E9DB949C28200A6300F6809F /* OffView.swift */,
+				E9C8EE6F28244B4C00EEC88E /* OffViewInteractor.swift */,
+				E9C8EE7128244B5200EEC88E /* OffViewPresenter.swift */,
+				E9C8EE7328244B5900EEC88E /* OffViewWorker.swift */,
+				E9C8EE7528244B5F00EEC88E /* OffViewRouter.swift */,
+				E9C8EE7728244B6A00EEC88E /* OffViewModels.swift */,
+			);
+			path = Off;
+			sourceTree = "<group>";
+		};
+		E9C8EE7A282518F300EEC88E /* BoilerExpertSettings */ = {
+			isa = PBXGroup;
+			children = (
+				E9C8EE7D2825193E00EEC88E /* BoilerExpertSettingsViewController.swift */,
+				E9C8EE8A2825535600EEC88E /* BoilerExpertSettingsWorker.swift */,
+				E9C8EE7F2825258400EEC88E /* ExpertBoilerSettingsRouter.swift */,
+				E9B0CA102877283800AAB961 /* AlertView.swift */,
+				E95AB1D1282BB7790060454F /* RelayOne */,
+				E95AB1D4282BB7900060454F /* RelayTwo */,
+				E95AB1D5282BB7970060454F /* OpenTherm */,
+			);
+			path = BoilerExpertSettings;
+			sourceTree = "<group>";
+		};
+		E9C8EE832825516A00EEC88E /* Boiler */ = {
+			isa = PBXGroup;
+			children = (
+				E9DB94A12822B02A00F6809F /* BoilerBackendModel.swift */,
+				E9C8EE81282550A000EEC88E /* BoilerExpertSettingsBackendModel.swift */,
+				E9B0CA1828774F3700AAB961 /* BoilerOpenThermSettingsBackendModel.swift */,
+			);
+			path = Boiler;
+			sourceTree = "<group>";
+		};
+		E9DB9494281FEC5C00F6809F /* Boiler Management */ = {
+			isa = PBXGroup;
+			children = (
+				E9DB9490281FE2DF00F6809F /* BoilerManagementViewController.swift */,
+				E9C8EE6928243A0400EEC88E /* BoilerManagementRouter.swift */,
+				E9DB949E28218AF900F6809F /* CustomViews */,
+				E9DB94972820074600F6809F /* Views */,
+			);
+			path = "Boiler Management";
+			sourceTree = "<group>";
+		};
+		E9DB94972820074600F6809F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E9C8EE68282428BA00EEC88E /* Thermostat */,
+				E9C8EE6D2824486F00EEC88E /* Handle */,
+				E9C8EE6E28244AD800EEC88E /* Off */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E9DB949E28218AF900F6809F /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				E9DB9492281FE41200F6809F /* CustomSegmentedControl.swift */,
+				E9DB949F28218B2F00F6809F /* ThumbTemperatureSlider.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		E9F17E0128EF4F87001F1D8E /* TeplocomCloudTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9F17E2D28F22605001F1D8E /* NetworkLayer */,
+				E9F17E1D28F0BE3F001F1D8E /* View */,
+				E9F17E1528EF6854001F1D8E /* Models */,
+				E9F17E1628F003E9001F1D8E /* Controllers */,
+			);
+			path = TeplocomCloudTests;
+			sourceTree = "<group>";
+		};
+		E9F17E0D28EF5E9E001F1D8E /* Auth Backend Models */ = {
+			isa = PBXGroup;
+			children = (
+				E9F17E0928EF4FD1001F1D8E /* AuthCodeBackendModelTests.swift */,
+				E9F17E0E28EF5EB5001F1D8E /* LoginBackendModelTests.swift */,
+			);
+			path = "Auth Backend Models";
+			sourceTree = "<group>";
+		};
+		E9F17E1528EF6854001F1D8E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E9F17E0D28EF5E9E001F1D8E /* Auth Backend Models */,
+				E9F17E0B28EF59B6001F1D8E /* BindedDevicesBackendModelTests.swift */,
+				E9F17E1228EF67BD001F1D8E /* HotDataBackendModelTests.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E9F17E1628F003E9001F1D8E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E9F17E6D28F72CF2001F1D8E /* Main View Controller */,
+				E9F17E7A28F80704001F1D8E /* BindedDevices */,
+				E9F17E1728F00412001F1D8E /* MenuViewControllerTests.swift */,
+				E9F17E1B28F05EFD001F1D8E /* SensorsListViewControllerTests.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E9F17E1D28F0BE3F001F1D8E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E9F17E1E28F0BE95001F1D8E /* BindedDevicesTableViewCellTests.swift */,
+				E9F17E2028F0C2C2001F1D8E /* MenuTableViewCellTests.swift */,
+				E9F17E2228F0C7B4001F1D8E /* SensorsListTableViewCellTests.swift */,
+				E9F17E2428F189BF001F1D8E /* BoilerManagementViews */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E9F17E2428F189BF001F1D8E /* BoilerManagementViews */ = {
+			isa = PBXGroup;
+			children = (
+				E9F17E2528F189D6001F1D8E /* ThermostatViewTests.swift */,
+				E9F17E2728F19350001F1D8E /* HandleViewTests.swift */,
+				E9F17E2928F1956B001F1D8E /* OffViewTests.swift */,
+			);
+			path = BoilerManagementViews;
+			sourceTree = "<group>";
+		};
+		E9F17E2D28F22605001F1D8E /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				E9F17E2E28F2261F001F1D8E /* NetworkServiceTests.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		E9F17E4428F49837001F1D8E /* TeplocomCloudUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E9F17E4528F49837001F1D8E /* TeplocomCloudUITests.swift */,
+				E9F17E4728F49837001F1D8E /* TeplocomCloudUITestsLaunchTests.swift */,
+			);
+			path = TeplocomCloudUITests;
+			sourceTree = "<group>";
+		};
+		E9F17E5A28F68AEB001F1D8E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E9F17E5B28F69106001F1D8E /* BindedDevicesViewModel.swift */,
+				E9F17E5D28F69157001F1D8E /* HotDataViewModel.swift */,
+				E9F17E5F28F692D2001F1D8E /* DeviceInfoViewModel.swift */,
+				E9F17E8828F85CFE001F1D8E /* PersonalInfoViewModel.swift */,
+				E91966A428FA9441008FDF90 /* NeedUpdateFirmwareViewModel.swift */,
+				E9F17E6128F693AB001F1D8E /* Boiler */,
+				E9F17E6628F694D0001F1D8E /* Sensors */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E9F17E6128F693AB001F1D8E /* Boiler */ = {
+			isa = PBXGroup;
+			children = (
+				E9F17E6228F693E6001F1D8E /* BoilerViewModel.swift */,
+				E9F17E6428F6942E001F1D8E /* BoilerExpertSettingsViewModel.swift */,
+			);
+			path = Boiler;
+			sourceTree = "<group>";
+		};
+		E9F17E6628F694D0001F1D8E /* Sensors */ = {
+			isa = PBXGroup;
+			children = (
+				E9F17E6728F695A0001F1D8E /* TemperatureSensorViewModel.swift */,
+				E9F17E6928F695D8001F1D8E /* TemperatureSensorExpertSettingsViewModel.swift */,
+			);
+			path = Sensors;
+			sourceTree = "<group>";
+		};
+		E9F17E6D28F72CF2001F1D8E /* Main View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E9F17E2B28F1EB6D001F1D8E /* MainViewControllerTests.swift */,
+				E9F17E7228F72D75001F1D8E /* MainScreenInteractorTests.swift */,
+				E9F17E7828F74354001F1D8E /* MainScreenPresenterTest.swift */,
+				E9F17E6E28F72D03001F1D8E /* TestDoubles */,
+			);
+			path = "Main View Controller";
+			sourceTree = "<group>";
+		};
+		E9F17E6E28F72D03001F1D8E /* TestDoubles */ = {
+			isa = PBXGroup;
+			children = (
+				E9F17E6F28F72D0F001F1D8E /* Spies */,
+			);
+			path = TestDoubles;
+			sourceTree = "<group>";
+		};
+		E9F17E6F28F72D0F001F1D8E /* Spies */ = {
+			isa = PBXGroup;
+			children = (
+				E9F17E7028F72D4D001F1D8E /* MainScreenBusinessLogicSpy.swift */,
+				E9F17E7428F73E6F001F1D8E /* MainScreenPresentationLogicSpy.swift */,
+				E9F17E7628F741E0001F1D8E /* MainScreenDisplayLogicSpy.swift */,
+			);
+			path = Spies;
+			sourceTree = "<group>";
+		};
+		E9F17E7A28F80704001F1D8E /* BindedDevices */ = {
+			isa = PBXGroup;
+			children = (
+				E9F17E1928F05AB0001F1D8E /* BindedDevicesViewControllerTests.swift */,
+				E9F17E7F28F809A4001F1D8E /* BindedDevicesInteractorTests.swift */,
+				E9F17E8328F80E3F001F1D8E /* BindedDevicesPresenterTests.swift */,
+				E9F17E7B28F8072E001F1D8E /* TestDoubles */,
+			);
+			path = BindedDevices;
+			sourceTree = "<group>";
+		};
+		E9F17E7B28F8072E001F1D8E /* TestDoubles */ = {
+			isa = PBXGroup;
+			children = (
+				E9F17E7C28F8073C001F1D8E /* Spies */,
+			);
+			path = TestDoubles;
+			sourceTree = "<group>";
+		};
+		E9F17E7C28F8073C001F1D8E /* Spies */ = {
+			isa = PBXGroup;
+			children = (
+				E9F17E7D28F80765001F1D8E /* BindedDevicesBusinessLogicSpy.swift */,
+				E9F17E8128F809BA001F1D8E /* BindedDevicesPresentationLogicSpy.swift */,
+				E9F17E8528F80E58001F1D8E /* BindedDevicesDisplayLogicSpy.swift */,
+			);
+			path = Spies;
+			sourceTree = "<group>";
+		};
+		E9F17E8728F85A47001F1D8E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E953542727BFFFCE0069390A /* BindedDevicesTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9BFC48426BA667B003460FF /* TeplocomCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9BFC49926BA667C003460FF /* Build configuration list for PBXNativeTarget "TeplocomCloud" */;
+			buildPhases = (
+				E91966AA28FA9CCC008FDF90 /* ShellScript */,
+				161B4F4029D9BCC8AC431FF8 /* [CP] Check Pods Manifest.lock */,
+				E9BFC48126BA667B003460FF /* Sources */,
+				E9BFC48226BA667B003460FF /* Frameworks */,
+				E9BFC48326BA667B003460FF /* Resources */,
+				AA9924B521E39B62FF8F2C40 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeplocomCloud;
+			productName = TeplocomCloud;
+			productReference = E9BFC48526BA667B003460FF /* TeplocomCloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9F17DFF28EF4F87001F1D8E /* TeplocomCloudTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F17E0828EF4F87001F1D8E /* Build configuration list for PBXNativeTarget "TeplocomCloudTests" */;
+			buildPhases = (
+				E9F17DFC28EF4F87001F1D8E /* Sources */,
+				E9F17DFD28EF4F87001F1D8E /* Frameworks */,
+				E9F17DFE28EF4F87001F1D8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9F17E0528EF4F87001F1D8E /* PBXTargetDependency */,
+			);
+			name = TeplocomCloudTests;
+			productName = TeplocomCloudTests;
+			productReference = E9F17E0028EF4F87001F1D8E /* TeplocomCloudTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9F17E4228F49837001F1D8E /* TeplocomCloudUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F17E4D28F49837001F1D8E /* Build configuration list for PBXNativeTarget "TeplocomCloudUITests" */;
+			buildPhases = (
+				E9F17E3F28F49837001F1D8E /* Sources */,
+				E9F17E4028F49837001F1D8E /* Frameworks */,
+				E9F17E4128F49837001F1D8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9F17E4A28F49837001F1D8E /* PBXTargetDependency */,
+			);
+			name = TeplocomCloudUITests;
+			productName = TeplocomCloudUITests;
+			productReference = E9F17E4328F49837001F1D8E /* TeplocomCloudUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9BFC47D26BA667B003460FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					E9BFC48426BA667B003460FF = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					E9F17DFF28EF4F87001F1D8E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = E9BFC48426BA667B003460FF;
+					};
+					E9F17E4228F49837001F1D8E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = E9BFC48426BA667B003460FF;
+					};
+				};
+			};
+			buildConfigurationList = E9BFC48026BA667B003460FF /* Build configuration list for PBXProject "TeplocomCloud" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9BFC47C26BA667B003460FF;
+			productRefGroup = E9BFC48626BA667B003460FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9BFC48426BA667B003460FF /* TeplocomCloud */,
+				E9F17DFF28EF4F87001F1D8E /* TeplocomCloudTests */,
+				E9F17E4228F49837001F1D8E /* TeplocomCloudUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9BFC48326BA667B003460FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9BFC49526BA667C003460FF /* LaunchScreen.storyboard in Resources */,
+				E9BFC49226BA667C003460FF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F17DFE28EF4F87001F1D8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F17E4128F49837001F1D8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		161B4F4029D9BCC8AC431FF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeplocomCloud-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA9924B521E39B62FF8F2C40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TeplocomCloud/Pods-TeplocomCloud-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TeplocomCloud/Pods-TeplocomCloud-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TeplocomCloud/Pods-TeplocomCloud-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E91966AA28FA9CCC008FDF90 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9BFC48126BA667B003460FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E93C78F327EA0C2100C57C97 /* SensorLoaderViewController.swift in Sources */,
+				E93C790427EB081400C57C97 /* UnallocatedSenorModel.swift in Sources */,
+				E9276FE226C42F25003742C7 /* EmailManagementPresenter.swift in Sources */,
+				E927700426C5969E003742C7 /* ThreePhoneChangeViewController.swift in Sources */,
+				E953543727C159850069390A /* TemperatureSensorsModels.swift in Sources */,
+				E93C790827EB108F00C57C97 /* SensorLoaderRouter.swift in Sources */,
+				E953543F27C24E850069390A /* MainScreenInteractor.swift in Sources */,
+				E9276FC326C12D1B003742C7 /* MainViewController.swift in Sources */,
+				E927700226C59151003742C7 /* PhoneNumberChangeRouter.swift in Sources */,
+				E9B0CA092875F74000AAB961 /* NotificationSettingsModels.swift in Sources */,
+				E93C793127EB4C9A00C57C97 /* SensorSettingsPresenter.swift in Sources */,
+				E9F24CD927ABE69B0073B292 /* PersonalCabinetUtilities.swift in Sources */,
+				E9C8EE7028244B4C00EEC88E /* OffViewInteractor.swift in Sources */,
+				E9C8EE7828244B6A00EEC88E /* OffViewModels.swift in Sources */,
+				E9DB94A22822B02A00F6809F /* BoilerBackendModel.swift in Sources */,
+				E953544327C24EC00069390A /* MainScreenModels.swift in Sources */,
+				E900F6EF27A54CE7006D0D42 /* MenuTableViewCell.swift in Sources */,
+				E9276FBB26C11F56003742C7 /* SMSCodePresenter.swift in Sources */,
+				E93C78FE27EB06A700C57C97 /* SensorLoaderInteractor.swift in Sources */,
+				E9BFC4A426BA9718003460FF /* NetworkDataFetcher.swift in Sources */,
+				E953542827BFFFCE0069390A /* BindedDevicesTableViewCell.swift in Sources */,
+				E93C790227EB075300C57C97 /* SensorLoaderModels.swift in Sources */,
+				E93C793727EB543E00C57C97 /* SensorSettingsRouter.swift in Sources */,
+				E9DB94A028218B2F00F6809F /* ThumbTemperatureSlider.swift in Sources */,
+				E9276FE026C417B9003742C7 /* EmailManagementRouter.swift in Sources */,
+				E9C8EE7628244B5F00EEC88E /* OffViewRouter.swift in Sources */,
+				E93C792F27EB4C9500C57C97 /* SensorSettingsInteractor.swift in Sources */,
+				E91A504026CD0D4100D593F0 /* UIViewController + Extension.swift in Sources */,
+				E9B0C9FD2875D30700AAB961 /* NotificationSettingsViewController.swift in Sources */,
+				E9F17E6A28F695D8001F1D8E /* TemperatureSensorExpertSettingsViewModel.swift in Sources */,
+				E951DA2726BBD19A001F6795 /* SignInWorker.swift in Sources */,
+				E9B0CA112877283800AAB961 /* AlertView.swift in Sources */,
+				E953542427BFF8010069390A /* BindedDevicesModels.swift in Sources */,
+				E953544127C24E8D0069390A /* MainScreenPresenter.swift in Sources */,
+				E93C78E527E9B93C00C57C97 /* MenuControllerRouter.swift in Sources */,
+				E9276FFE26C58DB2003742C7 /* TwoPhoneChangeWorker.swift in Sources */,
+				E9C8EE6C2824467B00EEC88E /* HandleViewRouter.swift in Sources */,
+				E9B0C9F828756ED600AAB961 /* AboutDeviceWorker.swift in Sources */,
+				E9BFC48926BA667B003460FF /* AppDelegate.swift in Sources */,
+				E9276FD926C3C26C003742C7 /* EmailManagementViewController.swift in Sources */,
+				E95AB1D3282BB78A0060454F /* RelayTwoView.swift in Sources */,
+				E953540B27BCD25E0069390A /* BindedDevicesBackendModel.swift in Sources */,
+				E93C78E127E9B1D800C57C97 /* BindedDevicesRouter.swift in Sources */,
+				E9C8EE8B2825535600EEC88E /* BoilerExpertSettingsWorker.swift in Sources */,
+				E9F17E6028F692D2001F1D8E /* DeviceInfoViewModel.swift in Sources */,
+				E9DB94A62822BE9700F6809F /* ThermostatModels.swift in Sources */,
+				E9F17E5E28F69157001F1D8E /* HotDataViewModel.swift in Sources */,
+				E900F5D1279FF3B8006D0D42 /* StandartViewUtilites.swift in Sources */,
+				E9F17E8928F85CFE001F1D8E /* PersonalInfoViewModel.swift in Sources */,
+				E93C78FA27EA26C100C57C97 /* SensorTypeTableViewCell.swift in Sources */,
+				E9F17E5728F5B246001F1D8E /* SensorsExpertSettingsWorker.swift in Sources */,
+				E9276FE626C4300D003742C7 /* EmailManagementModels.swift in Sources */,
+				E9B0CA0F2876C5CE00AAB961 /* RelayOneModels.swift in Sources */,
+				E9DB9491281FE2E000F6809F /* BoilerManagementViewController.swift in Sources */,
+				E927700826C59744003742C7 /* ThreePhoneChangePresenter.swift in Sources */,
+				E93C790627EB092100C57C97 /* SensorLoaderWorker.swift in Sources */,
+				E9276FBD26C11F94003742C7 /* SMSCodeModels.swift in Sources */,
+				E953542627BFFBA70069390A /* BindedDevicesWorker.swift in Sources */,
+				E953542227BFF7FB0069390A /* BindedDevicesPresenter.swift in Sources */,
+				E9276FEF26C436AE003742C7 /* PhoneNumberChangeModels.swift in Sources */,
+				E9276FD226C1A1AA003742C7 /* PersonalInfoBackendModel.swift in Sources */,
+				E9B0C9FA28756EDB00AAB961 /* AboutDeviceRouter.swift in Sources */,
+				E93C78EB27E9F41D00C57C97 /* SensorsListPresenter.swift in Sources */,
+				E9DB94962820074200F6809F /* ThermostatView.swift in Sources */,
+				E9B0CA152877429C00AAB961 /* RelayTwoPresenter.swift in Sources */,
+				E953546F27C285660069390A /* SensorsListTableViewCell.swift in Sources */,
+				E95AB1D0282BB7750060454F /* RelayOneView.swift in Sources */,
+				E9B0C9F0287555D400AAB961 /* AboutDeviceViewController.swift in Sources */,
+				E900F5DB279FFF29006D0D42 /* SMSCodeViewController.swift in Sources */,
+				E9276FB526C111AA003742C7 /* SignInRouter.swift in Sources */,
+				E9276FF626C58D23003742C7 /* TwoPhoneChangeViewController.swift in Sources */,
+				E9276FB926C1136A003742C7 /* SMSCodeInteractor.swift in Sources */,
+				E9B0CA1928774F3700AAB961 /* BoilerOpenThermSettingsBackendModel.swift in Sources */,
+				E9B0CA132877429600AAB961 /* RelayTwoInteractor.swift in Sources */,
+				E927700A26C59775003742C7 /* ThreePhoneChangeModels.swift in Sources */,
+				E9B0CA052875F73600AAB961 /* NotificationSettingsWorker.swift in Sources */,
+				E93C793327EB4C9F00C57C97 /* SensorSettingsModels.swift in Sources */,
+				E93C790027EB06D400C57C97 /* SensorLoaderPresenter.swift in Sources */,
+				E953542027BFF7F50069390A /* BindedDevicesInteractor.swift in Sources */,
+				E9DB9493281FE41200F6809F /* CustomSegmentedControl.swift in Sources */,
+				E93C78EF27E9FC8400C57C97 /* SensorsListWorker.swift in Sources */,
+				E9BFC4A226BA9707003460FF /* NetworkService.swift in Sources */,
+				E9B0C9F428756EC700AAB961 /* AboutDeviceInteractor.swift in Sources */,
+				E9F17E5128F54E60001F1D8E /* SensorsExpertSettingsPresenter.swift in Sources */,
+				E9B0C9FF2875F02600AAB961 /* NotificationSettingsModel.swift in Sources */,
+				E900F5D3279FF3CE006D0D42 /* UIView + Extension.swift in Sources */,
+				E9276FD026C1A0C0003742C7 /* PersonalCabinetWorker.swift in Sources */,
+				E9C8EE82282550A000EEC88E /* BoilerExpertSettingsBackendModel.swift in Sources */,
+				E93C792A27EB4B2200C57C97 /* SensorSettingsViewController.swift in Sources */,
+				E951DA2326BBD18B001F6795 /* SignInPresenter.swift in Sources */,
+				E900F5D5279FF3E5006D0D42 /* StandartView.swift in Sources */,
+				E9C8EE802825258400EEC88E /* ExpertBoilerSettingsRouter.swift in Sources */,
+				E9B0CA012875F4EF00AAB961 /* NotificationSettingsInteractor.swift in Sources */,
+				E9F17E6528F6942E001F1D8E /* BoilerExpertSettingsViewModel.swift in Sources */,
+				E953543D27C24D820069390A /* DeviceHotDataBackendModel.swift in Sources */,
+				E953433327F9AF1C002877A0 /* SensorsExpertSettingsViewController.swift in Sources */,
+				E9F17E6328F693E6001F1D8E /* BoilerViewModel.swift in Sources */,
+				E953544527C24EC80069390A /* MainScreenWorker.swift in Sources */,
+				E900F6F127A54CF5006D0D42 /* MenuViewController.swift in Sources */,
+				E9276FCC26C1A069003742C7 /* PersonalCabinetPresenter.swift in Sources */,
+				E9276FFC26C58DAC003742C7 /* TwoPhoneChangeModels.swift in Sources */,
+				E9C8EE7428244B5900EEC88E /* OffViewWorker.swift in Sources */,
+				E9F17E5928F5BBFF001F1D8E /* SensorsExpertSettingsRouter.swift in Sources */,
+				E9B0CA072875F73B00AAB961 /* NotificationSettingsRouter.swift in Sources */,
+				E9276FED26C4367F003742C7 /* PhoneNumberChangePresenter.swift in Sources */,
+				E9BFC48B26BA667B003460FF /* SceneDelegate.swift in Sources */,
+				E9C8EE6A28243A0400EEC88E /* BoilerManagementRouter.swift in Sources */,
+				E93C78FC27EA275700C57C97 /* SensorTypeModel.swift in Sources */,
+				E9DB94A42822BE7800F6809F /* ThermostatInteractor.swift in Sources */,
+				E9F17E6828F695A0001F1D8E /* TemperatureSensorViewModel.swift in Sources */,
+				E9DB949D28200A6300F6809F /* OffView.swift in Sources */,
+				E9276FEB26C4364A003742C7 /* PhoneNumberChangeInteractor.swift in Sources */,
+				E93C78F127EA0BA100C57C97 /* SensorsListRouter.swift in Sources */,
+				E9276FE826C4358D003742C7 /* PhoneNumberChangeViewController.swift in Sources */,
+				E91966A528FA9441008FDF90 /* NeedUpdateFirmwareViewModel.swift in Sources */,
+				E9B0CA1D2877510D00AAB961 /* OpenThermPresenter.swift in Sources */,
+				E9276FCE26C1A06F003742C7 /* PersonalCabinetModels.swift in Sources */,
+				E9276FCA26C1A05F003742C7 /* PersonalCabinetInteractor.swift in Sources */,
+				E9B0CA0B2876C59D00AAB961 /* RelayOneInteractor.swift in Sources */,
+				E9B0CA1F2877511300AAB961 /* OpenThermModels.swift in Sources */,
+				E953541D27BFF7970069390A /* BindedDevicesViewController.swift in Sources */,
+				E93C793527EB4CA500C57C97 /* SensorSettingsWorker.swift in Sources */,
+				E953543127C12FC70069390A /* DeviceInfoBackendModel.swift in Sources */,
+				E9276FC726C17853003742C7 /* PersonalCabinetViewController.swift in Sources */,
+				E9B0CA0D2876C5A400AAB961 /* RelayOnePresenter.swift in Sources */,
+				E9C8EE7228244B5200EEC88E /* OffViewPresenter.swift in Sources */,
+				E9B0CA17287742A000AAB961 /* RelayTwoModels.swift in Sources */,
+				E93C78F727EA0F8400C57C97 /* SensorTypeViewController.swift in Sources */,
+				E9276FE426C43003003742C7 /* EmailManagementWorker.swift in Sources */,
+				E9F17E4F28F54E4F001F1D8E /* SensorsExpertSettingsInteractor.swift in Sources */,
+				E9276FF826C58D5A003742C7 /* TwoPhoneChangeInteractor.swift in Sources */,
+				E9BFC4A626BA9721003460FF /* DataFetcherService.swift in Sources */,
+				E95AB1D7282BB7AE0060454F /* OpenThermView.swift in Sources */,
+				E9276FDC26C41355003742C7 /* PersonalCabinetRouter.swift in Sources */,
+				E9B0CA1B2877510600AAB961 /* OpenThermInteractor.swift in Sources */,
+				E900F6C527A5351F006D0D42 /* MainScreenUtilities.swift in Sources */,
+				E9276FBF26C11F9A003742C7 /* SMSCodeWorker.swift in Sources */,
+				E953546C27C2761D0069390A /* SensorsListViewController.swift in Sources */,
+				E93C792D27EB4C7700C57C97 /* SensorTypeRouter.swift in Sources */,
+				E9B0C9F228756E5000AAB961 /* AboutDeviceModels.swift in Sources */,
+				E9BFC4A826BA9728003460FF /* RequestType.swift in Sources */,
+				E9276FDE26C417B3003742C7 /* EmailManagementInteractor.swift in Sources */,
+				E93C78E927E9F41800C57C97 /* SensorsListInteractor.swift in Sources */,
+				E9DB94AA2822D51D00F6809F /* ThermostatWorker.swift in Sources */,
+				E9C8EE7E2825193E00EEC88E /* BoilerExpertSettingsViewController.swift in Sources */,
+				E951DA2126BBD184001F6795 /* SignInInteractor.swift in Sources */,
+				E93C78ED27E9F42D00C57C97 /* SensorsListModels.swift in Sources */,
+				E9B0C9F628756ECE00AAB961 /* AboutDevicePresenter.swift in Sources */,
+				E9F17E5328F54E72001F1D8E /* SensorsExpertSettingsModels.swift in Sources */,
+				E953433127F74FEC002877A0 /* SensorsUtilities.swift in Sources */,
+				E9DB94A82822CC4E00F6809F /* ThermostatPresenter.swift in Sources */,
+				E900F5D7279FF9FF006D0D42 /* SignInViewController.swift in Sources */,
+				E9F17E6C28F69600001F1D8E /* TemperatureSensorExpertSettingsBackendModel.swift in Sources */,
+				E9276FB726C112E6003742C7 /* SMSCodeRouter.swift in Sources */,
+				E9BFC4AB26BA9782003460FF /* AuthModels.swift in Sources */,
+				E927700626C596DF003742C7 /* ThreePhoneChangeInteractor.swift in Sources */,
+				E9DB94AC2823BC8300F6809F /* ThermostatRouter.swift in Sources */,
+				E927700C26C5977B003742C7 /* ThreePhoneChangeWorker.swift in Sources */,
+				E9276FD526C26FEA003742C7 /* PopoverSearchTableViewController.swift in Sources */,
+				E927700026C58DB9003742C7 /* TwoPhoneChangeRouter.swift in Sources */,
+				E9DB949B28200A4C00F6809F /* HandleView.swift in Sources */,
+				E951DA2526BBD192001F6795 /* SignInModels.swift in Sources */,
+				E9F17E5C28F69106001F1D8E /* BindedDevicesViewModel.swift in Sources */,
+				E9276FFA26C58D85003742C7 /* TwoPhoneChangePresenter.swift in Sources */,
+				E9B0CA032875F73000AAB961 /* NotificationSettingsPresenter.swift in Sources */,
+				E900F6F327A54D09006D0D42 /* MenuModel.swift in Sources */,
+				E9276FF126C436BF003742C7 /* PhoneNumberChangeWorker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F17DFC28EF4F87001F1D8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F17E0F28EF5EB5001F1D8E /* LoginBackendModelTests.swift in Sources */,
+				E9F17E7528F73E6F001F1D8E /* MainScreenPresentationLogicSpy.swift in Sources */,
+				E9F17E7128F72D4D001F1D8E /* MainScreenBusinessLogicSpy.swift in Sources */,
+				E9F17E8428F80E3F001F1D8E /* BindedDevicesPresenterTests.swift in Sources */,
+				E9F17E2F28F2261F001F1D8E /* NetworkServiceTests.swift in Sources */,
+				E9F17E8628F80E58001F1D8E /* BindedDevicesDisplayLogicSpy.swift in Sources */,
+				E9F17E1C28F05EFD001F1D8E /* SensorsListViewControllerTests.swift in Sources */,
+				E9F17E2828F19350001F1D8E /* HandleViewTests.swift in Sources */,
+				E9F17E7E28F80765001F1D8E /* BindedDevicesBusinessLogicSpy.swift in Sources */,
+				E9F17E1A28F05AB0001F1D8E /* BindedDevicesViewControllerTests.swift in Sources */,
+				E9F17E8228F809BA001F1D8E /* BindedDevicesPresentationLogicSpy.swift in Sources */,
+				E9F17E0C28EF59B6001F1D8E /* BindedDevicesBackendModelTests.swift in Sources */,
+				E9F17E2628F189D6001F1D8E /* ThermostatViewTests.swift in Sources */,
+				E9F17E1828F00412001F1D8E /* MenuViewControllerTests.swift in Sources */,
+				E9F17E2A28F1956B001F1D8E /* OffViewTests.swift in Sources */,
+				E9F17E1F28F0BE95001F1D8E /* BindedDevicesTableViewCellTests.swift in Sources */,
+				E9F17E0A28EF4FD1001F1D8E /* AuthCodeBackendModelTests.swift in Sources */,
+				E9F17E7328F72D75001F1D8E /* MainScreenInteractorTests.swift in Sources */,
+				E9F17E8028F809A4001F1D8E /* BindedDevicesInteractorTests.swift in Sources */,
+				E9F17E7928F74354001F1D8E /* MainScreenPresenterTest.swift in Sources */,
+				E9F17E2128F0C2C2001F1D8E /* MenuTableViewCellTests.swift in Sources */,
+				E9F17E2328F0C7B4001F1D8E /* SensorsListTableViewCellTests.swift in Sources */,
+				E9F17E1328EF67BD001F1D8E /* HotDataBackendModelTests.swift in Sources */,
+				E9F17E2C28F1EB6D001F1D8E /* MainViewControllerTests.swift in Sources */,
+				E9F17E7728F741E0001F1D8E /* MainScreenDisplayLogicSpy.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F17E3F28F49837001F1D8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F17E4628F49837001F1D8E /* TeplocomCloudUITests.swift in Sources */,
+				E9F17E4828F49837001F1D8E /* TeplocomCloudUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9F17E0528EF4F87001F1D8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9BFC48426BA667B003460FF /* TeplocomCloud */;
+			targetProxy = E9F17E0428EF4F87001F1D8E /* PBXContainerItemProxy */;
+		};
+		E9F17E4A28F49837001F1D8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9BFC48426BA667B003460FF /* TeplocomCloud */;
+			targetProxy = E9F17E4928F49837001F1D8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9BFC49326BA667C003460FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9BFC49426BA667C003460FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9BFC49726BA667C003460FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9BFC49826BA667C003460FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9BFC49A26BA667C003460FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63E252ECAD710CA14FABDA06 /* Pods-TeplocomCloud.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S59HYY3L5C;
+				INFOPLIST_FILE = TeplocomCloud/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RomanElfimov.TeplocomCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E9BFC49B26BA667C003460FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB6DDD7219EA2A1FD5969BA1 /* Pods-TeplocomCloud.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S59HYY3L5C;
+				INFOPLIST_FILE = TeplocomCloud/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RomanElfimov.TeplocomCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E9F17E0628EF4F87001F1D8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S59HYY3L5C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RomanElfimov.TeplocomCloudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeplocomCloud.app/TeplocomCloud";
+			};
+			name = Debug;
+		};
+		E9F17E0728EF4F87001F1D8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S59HYY3L5C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RomanElfimov.TeplocomCloudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeplocomCloud.app/TeplocomCloud";
+			};
+			name = Release;
+		};
+		E9F17E4B28F49837001F1D8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S59HYY3L5C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RomanElfimov.TeplocomCloudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TeplocomCloud;
+			};
+			name = Debug;
+		};
+		E9F17E4C28F49837001F1D8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S59HYY3L5C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RomanElfimov.TeplocomCloudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TeplocomCloud;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9BFC48026BA667B003460FF /* Build configuration list for PBXProject "TeplocomCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9BFC49726BA667C003460FF /* Debug */,
+				E9BFC49826BA667C003460FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9BFC49926BA667C003460FF /* Build configuration list for PBXNativeTarget "TeplocomCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9BFC49A26BA667C003460FF /* Debug */,
+				E9BFC49B26BA667C003460FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9F17E0828EF4F87001F1D8E /* Build configuration list for PBXNativeTarget "TeplocomCloudTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F17E0628EF4F87001F1D8E /* Debug */,
+				E9F17E0728EF4F87001F1D8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9F17E4D28F49837001F1D8E /* Build configuration list for PBXNativeTarget "TeplocomCloudUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F17E4B28F49837001F1D8E /* Debug */,
+				E9F17E4C28F49837001F1D8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9BFC47D26BA667B003460FF /* Project object */;
+}
